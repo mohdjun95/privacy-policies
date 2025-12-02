@@ -1,19 +1,19 @@
-# Privacy Policy for Sift - AI Photo Sorter
+# Privacy Policy for Sifty - AI Photo Sorter
 
-**Last Updated: November 9, 2025**  
-**Effective Date: November 9, 2025**
+**Last Updated: December 2, 2025**  
+**Effective Date: December 2, 2025**
 
 ---
 
 ## 🔒 Key Highlights
 
-✅ **Your Photos Stay Private** - We never upload your photos to our servers. All image analysis happens securely through Google's Gemini API.
+✅ **Your Photos Stay Private** - We never upload your photos to our servers. All image analysis happens locally on your device and securely through Google's Gemini API.
 
 ✅ **No Data Selling** - We will never sell, rent, or share your personal information with third parties for marketing purposes.
 
 ✅ **Minimal Data Collection** - We only collect what's necessary to provide you with the best photo sorting experience.
 
-✅ **Secure Payments** - All payment processing is handled by trusted third-party providers (Razorpay) with bank-grade encryption.
+✅ **Free Beta Version** - Currently free to use with 10,000 complimentary credits. No payment processing in this version.
 
 ✅ **You're in Control** - You can delete your account and data at any time through the app settings.
 
@@ -23,9 +23,9 @@
 
 ## 1. Introduction
 
-Welcome to **Sift** (formerly "AI Photo Sorter"), developed by Muhammed Junaid ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.
+Welcome to **Sifty** (the "App"), developed by Muhammed Junaid ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.
 
-By using Sift, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, please do not use our app.
+By using Sifty, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, please do not use our app.
 
 ---
 
@@ -44,10 +44,6 @@ By using Sift, you agree to the collection and use of information in accordance 
 - Feedback on AI sorting decisions
 - App settings and configurations
 
-**Payment Information:**
-- We do NOT store your credit card or payment details
-- Payment processing is handled securely by Razorpay
-- We only receive transaction confirmation and receipt information
 
 ### 2.2 Information Collected Automatically
 
@@ -63,10 +59,11 @@ By using Sift, you agree to the collection and use of information in accordance 
 - Timestamps of when photos were analyzed
 - **Important:** We do NOT upload your actual photo files to our servers
 
-**Performance Data:**
+**Credits Usage Data:**
+- Credit consumption tracking
+- Analysis history and statistics
 - App performance metrics
 - API usage statistics
-- Budget consumption tracking
 
 ### 2.3 Information We Do NOT Collect
 
@@ -92,12 +89,7 @@ We explicitly do NOT:
 **Account Management:**
 - Authenticate your identity via Firebase Authentication
 - Sync your preferences and learning data across devices
-- Manage your subscription and usage limits
-
-**Payment Processing:**
-- Process payments through Razorpay for API usage packages
-- Track your remaining budget and usage
-- Generate transaction receipts
+- Manage your credit usage and limits
 
 ### 3.2 Service Improvement
 
@@ -115,12 +107,11 @@ We explicitly do NOT:
 
 **Transactional Emails:**
 - Account verification and password resets
-- Payment confirmations and receipts
 - Important app updates and security notices
 
 **Optional Notifications:**
-- Express mode progress updates
-- Budget low warnings
+- Analysis progress updates
+- Credit low warnings
 - AI learning updates available
 
 ---
@@ -141,15 +132,10 @@ We use the following trusted services to provide our functionality:
 - **Data Shared:** Image metadata, analysis context, AI learning feedback
 - **Privacy Policy:** https://ai.google.dev/gemini-api/terms
 
-**Razorpay (Razorpay Software Private Limited):**
-- **Purpose:** Payment processing
-- **Data Shared:** Email, transaction amount, payment method details (handled securely)
-- **Privacy Policy:** https://razorpay.com/privacy/
-
 **Firebase Crashlytics (Google LLC):**
 - **Purpose:** Error monitoring and crash reporting
 - **Data Shared:** Device information, app state during crashes, error logs
-- **Privacy Policy:** https://firebase.google.com/support/privacy/
+- **Privacy Policy:** https://firebase.google.com/support/privacy
 
 ### 4.2 Legal Requirements
 
@@ -178,8 +164,7 @@ If we are involved in a merger, acquisition, or sale of assets, your information
 **On Our Servers (Firebase):**
 - Account information (encrypted)
 - AI learning context (your preferences)
-- Usage statistics and budget tracking
-- Transaction history
+- Usage statistics and credit tracking
 
 **Geographic Location:**
 - Data is stored on Google Firebase servers (primarily in US data centers)
@@ -216,8 +201,8 @@ We implement industry-standard security measures:
 - You can request immediate deletion at any time
 
 **Legal Obligations:**
-- Transaction records retained for 7 years (legal requirement)
 - Crash logs deleted after 90 days
+- Usage data retained for service improvement
 
 ---
 
@@ -231,7 +216,7 @@ We implement industry-standard security measures:
 - Update or correct your information
 
 **Privacy Controls:**
-- Enable/disable Express mode notifications
+- Enable/disable background processing notifications
 - Control which folders the app can access
 - Manage AI learning preferences
 
@@ -245,14 +230,14 @@ We implement industry-standard security measures:
 **Delete Your Account:**
 - Request complete account deletion through app settings
 - We will delete your data within 30 days
-- Some data may be retained for legal compliance (transaction records)
+- Some anonymized usage data may be retained for service improvement
 
 ### 6.3 Marketing Communications
 
 **Opt-Out:**
 - We do not send marketing emails by default
 - If we introduce marketing communications, you can unsubscribe anytime
-- Transactional emails (receipts, security alerts) cannot be disabled
+- Transactional emails (security alerts, account notifications) cannot be disabled
 
 ### 6.4 Your Legal Rights (GDPR/CCPA)
 
@@ -284,7 +269,7 @@ If you are in the EU, UK, or California, you have additional rights:
 **Right to Withdraw Consent:**
 - Withdraw consent at any time
 
-To exercise these rights, contact us at: mohammed.junaid227@gmail.com (or your designated email)
+To exercise these rights, contact us at: privacy@siftapp.com (or your designated email)
 
 ---
 
@@ -397,7 +382,7 @@ If you are a California resident, you have specific rights under the California 
 **Shine the Light Law:**
 - Request information about disclosure to third parties for direct marketing
 
-To exercise your CCPA rights, contact us at: mohammed.junaid227@gmail.com
+To exercise your CCPA rights, contact us at: privacy@siftapp.com
 
 **Response Time:** We will respond within 45 days.
 
@@ -417,7 +402,7 @@ If you are in the European Economic Area (EEA), United Kingdom, or Switzerland, 
 - Muhammed Junaid (Sift Developer)
 
 **Data Protection Officer:**
-- Contact: mohammed.junaid227@gmail.com (or your designated DPO email)
+- Contact: privacy@siftapp.com (or your designated DPO email)
 
 **Supervisory Authority:**
 - You have the right to lodge a complaint with your local data protection authority
@@ -450,7 +435,7 @@ We may update this Privacy Policy from time to time to reflect:
 
 If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
 
-**Email:** mohammed.junaid227@gmail.com
+**Email:** privacy@siftapp.com (replace with your actual email)
 
 **Developer:** Muhammed Junaid
 
@@ -458,7 +443,7 @@ If you have questions, concerns, or requests regarding this Privacy Policy or ou
 
 **Mailing Address:** (Add your physical address if required by law)
 
-**Data Protection Officer:** mohammed.junaid227@gmail.com
+**Data Protection Officer:** privacy@siftapp.com
 
 ---
 
@@ -499,7 +484,7 @@ If you do not agree with any part of this policy, please do not use our app.
 💳 **Payments:** Handled securely by Razorpay (we don't store card details)  
 🛡️ **Security:** Encryption, secure storage, regular audits  
 ✅ **Your Rights:** Access, delete, download, control your data  
-📧 **Contact:** mohammed.junaid227@gmail.com  
+📧 **Contact:** privacy@siftapp.com  
 🔄 **Updates:** We'll notify you of any changes  
 
 ---
