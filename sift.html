@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Privacy Policy for Sift - AI Photo Sorter App">
-    <title>Privacy Policy - Sift AI Photo Sorter</title>
+    <title>Sifty - Privacy Policy</title>
     <style>
         * {
             margin: 0;
@@ -17,7 +15,7 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
             color: #333;
-            background: #f5f5f5;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             padding: 20px;
         }
 
@@ -26,180 +24,145 @@
             margin: 0 auto;
             background: white;
             padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-            padding-bottom: 20px;
-            border-bottom: 3px solid #009688;
+            border-radius: 10px;
+            box-shadow: 0 10px 50px rgba(0,0,0,0.2);
         }
 
         h1 {
-            color: #009688;
+            color: #667eea;
             font-size: 2.5em;
             margin-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
         }
 
-        .subtitle {
+        .meta {
             color: #666;
-            font-size: 1.1em;
-        }
-
-        .last-updated {
-            background: #e0f2f1;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 20px 0;
-            text-align: center;
-            font-weight: 500;
-            color: #00695c;
-        }
-
-        .highlights {
-            background: linear-gradient(135deg, #009688 0%, #00695c 100%);
-            color: white;
-            padding: 30px;
-            border-radius: 12px;
-            margin: 30px 0;
-        }
-
-        .highlights h2 {
-            margin-bottom: 20px;
-            font-size: 1.8em;
-        }
-
-        .highlight-item {
-            display: flex;
-            align-items: flex-start;
-            margin: 15px 0;
-            padding: 10px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 8px;
-        }
-
-        .highlight-item::before {
-            content: "✓";
-            font-size: 1.5em;
-            margin-right: 15px;
-            font-weight: bold;
+            font-style: italic;
+            margin-bottom: 30px;
         }
 
         h2 {
-            color: #009688;
+            color: #764ba2;
             font-size: 1.8em;
             margin-top: 40px;
             margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #e0e0e0;
+            border-left: 5px solid #667eea;
+            padding-left: 15px;
         }
 
         h3 {
-            color: #00695c;
+            color: #555;
             font-size: 1.3em;
             margin-top: 25px;
             margin-bottom: 10px;
         }
 
         p {
-            margin: 15px 0;
+            margin-bottom: 15px;
             text-align: justify;
         }
 
-        ul,
-        ol {
-            margin: 15px 0;
-            padding-left: 30px;
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
         }
 
         li {
-            margin: 8px 0;
+            margin-bottom: 8px;
         }
 
-        strong {
-            color: #00695c;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
-        .info-box {
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        .highlight {
             background: #fff3cd;
-            border-left: 4px solid #ffc107;
             padding: 15px;
+            border-left: 5px solid #ffc107;
             margin: 20px 0;
-            border-radius: 4px;
+            border-radius: 5px;
         }
 
-        .important-box {
+        .important {
             background: #f8d7da;
-            border-left: 4px solid #dc3545;
             padding: 15px;
+            border-left: 5px solid #dc3545;
             margin: 20px 0;
-            border-radius: 4px;
+            border-radius: 5px;
         }
 
-        .success-box {
+        .success {
             background: #d4edda;
-            border-left: 4px solid #28a745;
             padding: 15px;
+            border-left: 5px solid #28a745;
             margin: 20px 0;
-            border-radius: 4px;
-        }
-
-        .contact-box {
-            background: #e3f2fd;
-            border: 2px solid #2196f3;
-            padding: 25px;
-            border-radius: 12px;
-            margin: 30px 0;
-            text-align: center;
-        }
-
-        .contact-box h2 {
-            border: none;
-            margin-top: 0;
+            border-radius: 5px;
         }
 
         a {
-            color: #009688;
+            color: #667eea;
             text-decoration: none;
-            font-weight: 500;
+            font-weight: bold;
         }
 
         a:hover {
             text-decoration: underline;
         }
 
-        .toc {
-            background: #f5f5f5;
-            padding: 20px;
-            border-radius: 8px;
+        strong {
+            color: #764ba2;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #eee;
             margin: 30px 0;
         }
 
-        .toc h3 {
-            margin-top: 0;
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
         }
 
-        .toc ul {
-            list-style: none;
+        .contact-box h2 {
+            color: white;
+            border-left: none;
             padding-left: 0;
         }
 
-        .toc li {
-            padding: 5px 0;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            padding-top: 30px;
-            border-top: 2px solid #e0e0e0;
-            color: #666;
-            font-size: 0.9em;
+        .contact-box a {
+            color: #fff;
+            text-decoration: underline;
         }
 
         @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
             .container {
                 padding: 20px;
             }
@@ -211,408 +174,430 @@
             h2 {
                 font-size: 1.5em;
             }
+
+            table {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
-
 <body>
     <div class="container">
-        <header>
-            <h1>🔒 Privacy Policy</h1>
-            <p class="subtitle">Sift - AI Photo Sorter</p>
-        </header>
+        <h1>Privacy Policy for Sifty</h1>
+        <p class="meta"><strong>Last Updated:</strong> December 27, 2025<br>
+        <strong>Effective Date:</strong> December 27, 2025</p>
 
-        <div class="last-updated">
-            <strong>Last Updated:</strong> November 9, 2025<br>
-            <strong>Effective Date:</strong> November 9, 2025
+        <hr>
+
+        <h2>Introduction</h2>
+        <p>Welcome to <strong>Sifty</strong> ("we," "our," or "us"). Sifty is an AI-powered photo organization app that helps you intelligently sort, categorize, and manage your photo library. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application (the "App").</p>
+
+        <div class="important">
+            <p><strong>By using Sifty, you agree to the collection and use of information in accordance with this policy.</strong> If you do not agree with the terms of this privacy policy, please do not access or use the application.</p>
         </div>
 
-        <div class="highlights">
-            <h2>🔒 Key Highlights</h2>
-            <div class="highlight-item">
-                <div><strong>Your Photos Stay Private</strong> - We never upload your photos to our servers. All image
-                    analysis happens securely through Google's Gemini API.</div>
-            </div>
-            <div class="highlight-item">
-                <div><strong>No Data Selling</strong> - We will never sell, rent, or share your personal information
-                    with third parties for marketing purposes.</div>
-            </div>
-            <div class="highlight-item">
-                <div><strong>Minimal Data Collection</strong> - We only collect what's necessary to provide you with the
-                    best photo sorting experience.</div>
-            </div>
-            <div class="highlight-item">
-                <div><strong>Secure Payments</strong> - All payment processing is handled by trusted third-party
-                    providers (Razorpay) with bank-grade encryption.</div>
-            </div>
-            <div class="highlight-item">
-                <div><strong>You're in Control</strong> - You can delete your account and data at any time through the
-                    app settings.</div>
-            </div>
-            <div class="highlight-item">
-                <div><strong>Transparent AI</strong> - We clearly show you why the AI makes decisions about your photos,
-                    and you have the final say.</div>
-            </div>
+        <hr>
+
+        <h2>1. Information We Collect</h2>
+
+        <h3>1.1 Personal Information</h3>
+        <p>When you use Sifty, we may collect the following personal information:</p>
+        <ul>
+            <li><strong>Account Information</strong>: Email address, name, and authentication credentials when you sign up using Google Sign-In or email/password</li>
+            <li><strong>Profile Information</strong>: User preferences, photo sorting preferences, and AI learning feedback you provide</li>
+            <li><strong>Device Information</strong>: Device model, operating system version, unique device identifiers</li>
+        </ul>
+
+        <h3>1.2 Photos and Media Access</h3>
+        <ul>
+            <li><strong>Photo Access</strong>: The App requires access to your device's photo library (READ_MEDIA_IMAGES permission) to:
+                <ul>
+                    <li>Scan and analyze photos for duplicate detection</li>
+                    <li>Organize photos based on your preferences</li>
+                    <li>Apply AI-powered sorting and categorization</li>
+                </ul>
+            </li>
+            <li><strong>Storage Access</strong>: The App requires storage access (MANAGE_EXTERNAL_STORAGE permission) to:
+                <ul>
+                    <li>Read photos from multiple folders across your device</li>
+                    <li>Create organized folders for sorted photos</li>
+                    <li>Move or delete duplicate/unwanted photos based on your decisions</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="success">
+            <p><strong>Important</strong>: All photo processing happens <strong>locally on your device</strong>. We do <strong>NOT</strong> upload your photos to our servers unless explicitly required for AI analysis (see section 1.3).</p>
         </div>
 
-        <div class="toc">
-            <h3>📋 Table of Contents</h3>
+        <h3>1.3 Data Sent to Cloud Services</h3>
+        <p>For AI-powered photo analysis, we send <strong>compressed, low-resolution versions</strong> of selected photos to:</p>
+        <ul>
+            <li><strong>Firebase Cloud Functions</strong>: To perform AI-based image analysis, duplicate detection, and relevance scoring</li>
+            <li><strong>Google Cloud AI (Gemini)</strong>: For intelligent photo categorization based on your preferences</li>
+            <li><strong>Firebase Firestore</strong>: Temporary storage of analysis results and AI learning data</li>
+        </ul>
+
+        <h4>What we send:</h4>
+        <ul>
+            <li>Compressed photo thumbnails (significantly reduced file size - typically under 100KB per image)</li>
+            <li>Photo metadata (file name, creation date, file size)</li>
+            <li>Your user story and photo preferences (what types of photos you want to keep/delete)</li>
+            <li>Your feedback from photo reviews (to train the AI to match your preferences)</li>
+            <li>Analysis progress and session data</li>
+        </ul>
+
+        <h4>What we DON'T send:</h4>
+        <ul>
+            <li>Original full-resolution photos</li>
+            <li>Photos from folders you haven't selected for analysis</li>
+            <li>Any personal information beyond what's needed for AI learning</li>
+            <li>Location data or EXIF metadata (unless you explicitly enable it in settings)</li>
+        </ul>
+
+        <h4>How long we keep it:</h4>
+        <ul>
+            <li>Compressed thumbnails: Deleted immediately after analysis</li>
+            <li>AI learning data: Retained indefinitely to improve your personalized sorting (anonymized if you delete your account)</li>
+            <li>User feedback: Stored to train the AI model (up to 20 random samples per learning cycle)</li>
+        </ul>
+
+        <h3>1.4 Usage Data</h3>
+        <p>We automatically collect:</p>
+        <ul>
+            <li>App usage statistics (features used, analysis sessions)</li>
+            <li>Error logs and crash reports (via Firebase Crashlytics)</li>
+            <li>Performance metrics (app response times, battery usage)</li>
+        </ul>
+
+        <h3>1.5 Background Processing Data</h3>
+        <p>When the App runs in the background (using FOREGROUND_SERVICE_DATA_SYNC permission):</p>
+        <ul>
+            <li>Processing progress and status</li>
+            <li>Temporary analysis results</li>
+            <li>Notification data to keep you informed</li>
+        </ul>
+
+        <hr>
+
+        <h2>2. How We Use Your Information</h2>
+
+        <h3>2.1 Core Functionality</h3>
+        <ul>
+            <li><strong>Phased Photo Analysis</strong>: Analyzing your photos in three intelligent phases:
+                <ul>
+                    <li><strong>Phase 1 (Scoping)</strong>: Initial analysis of 147 images to learn your preferences</li>
+                    <li><strong>Phase 2 (Dusting)</strong>: Deeper analysis of 210 images to refine AI understanding</li>
+                    <li><strong>Phase 3 (Clean Sweep)</strong>: Final comprehensive analysis of remaining photos</li>
+                </ul>
+            </li>
+            <li>Detecting duplicate, blurry, or low-quality images</li>
+            <li>Flagging photos for your review based on relevance to your stated preferences</li>
+            <li>Learning from your feedback to improve sorting accuracy over time</li>
+            <li>Providing personalized photo management recommendations</li>
+            <li>Background processing to continue analysis when app is minimized</li>
+        </ul>
+
+        <h3>2.2 Service Improvement</h3>
+        <ul>
+            <li>Improving AI accuracy through machine learning</li>
+            <li>Fixing bugs and optimizing performance</li>
+            <li>Developing new features based on usage patterns</li>
+        </ul>
+
+        <h3>2.3 Communication</h3>
+        <ul>
+            <li>Sending important service updates and notifications</li>
+            <li>Responding to your support requests</li>
+            <li>Informing you about new features (with your consent)</li>
+        </ul>
+
+        <h3>2.4 Legal Compliance</h3>
+        <ul>
+            <li>Complying with applicable laws and regulations</li>
+            <li>Protecting our legal rights</li>
+            <li>Preventing fraud and abuse</li>
+        </ul>
+
+        <hr>
+
+        <h2>3. Data Storage and Security</h2>
+
+        <h3>3.1 Local Storage</h3>
+        <ul>
+            <li><strong>Most data stays on your device</strong>: Photos, sorting decisions, and preferences are stored locally</li>
+            <li><strong>Secure local database</strong>: We use encrypted SQLite databases for sensitive data</li>
+            <li><strong>No cloud backup of photos</strong>: Your original photos never leave your device</li>
+        </ul>
+
+        <h3>3.2 Cloud Storage (Firebase/Google Cloud)</h3>
+        <ul>
+            <li><strong>User account data</strong>: Stored securely in Firebase Authentication</li>
+            <li><strong>AI learning data</strong>: Stored in Firebase Firestore with encryption at rest</li>
+            <li><strong>Temporary analysis data</strong>: Automatically deleted after processing</li>
+            <li><strong>Crash logs</strong>: Anonymized and stored in Firebase Crashlytics</li>
+        </ul>
+
+        <h3>3.3 Security Measures</h3>
+        <ul>
+            <li>Industry-standard encryption for data transmission (TLS/SSL)</li>
+            <li>Secure authentication via Google Sign-In</li>
+            <li>Regular security audits and updates</li>
+            <li>No sharing of personal data with third parties without consent</li>
+        </ul>
+
+        <hr>
+
+        <h2>4. Data Retention</h2>
+
+        <h3>4.1 Active Users</h3>
+        <ul>
+            <li>Account data: Retained while your account is active</li>
+            <li>AI learning data: Retained to improve sorting accuracy</li>
+            <li>Usage logs: Retained for 90 days</li>
+        </ul>
+
+        <h3>4.2 Account Deletion</h3>
+        <p>When you delete your account:</p>
+        <ul>
+            <li>Personal information is deleted within 30 days</li>
+            <li>AI learning data is anonymized (cannot be linked back to you)</li>
+            <li>Photos remain on your device (we never had copies)</li>
+            <li>Crash logs and analytics are anonymized</li>
+        </ul>
+
+        <hr>
+
+        <h2>5. Permissions Explained</h2>
+
+        <h3>5.1 Why We Need Each Permission</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Permission</th>
+                    <th>Purpose</th>
+                    <th>Can I Deny?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>READ_MEDIA_IMAGES</strong></td>
+                    <td>Access photos for analysis</td>
+                    <td>❌ Required for core functionality</td>
+                </tr>
+                <tr>
+                    <td><strong>MANAGE_EXTERNAL_STORAGE</strong></td>
+                    <td>Organize photos across folders</td>
+                    <td>❌ Required for multi-folder sorting</td>
+                </tr>
+                <tr>
+                    <td><strong>INTERNET</strong></td>
+                    <td>AI analysis and account sync</td>
+                    <td>❌ Required for cloud features</td>
+                </tr>
+                <tr>
+                    <td><strong>FOREGROUND_SERVICE_DATA_SYNC</strong></td>
+                    <td>Continue analysis when app is minimized</td>
+                    <td>⚠️ Required for background processing</td>
+                </tr>
+                <tr>
+                    <td><strong>POST_NOTIFICATIONS</strong></td>
+                    <td>Show analysis progress notifications</td>
+                    <td>✅ Optional (can disable in Android settings)</td>
+                </tr>
+                <tr>
+                    <td><strong>ACCESS_NETWORK_STATE</strong></td>
+                    <td>Check internet connectivity</td>
+                    <td>❌ Required to avoid failed uploads</td>
+                </tr>
+                <tr>
+                    <td><strong>WAKE_LOCK</strong></td>
+                    <td>Keep processing active during background analysis</td>
+                    <td>⚠️ Automatically managed by system</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="highlight">
+            <p><strong>Note</strong>: The FOREGROUND_SERVICE_DATA_SYNC permission is essential for the app's core functionality. It allows Sifty to:</p>
             <ul>
-                <li><a href="#introduction">1. Introduction</a></li>
-                <li><a href="#information-we-collect">2. Information We Collect</a></li>
-                <li><a href="#how-we-use">3. How We Use Your Information</a></li>
-                <li><a href="#sharing">4. How We Share Your Information</a></li>
-                <li><a href="#security">5. Data Storage and Security</a></li>
-                <li><a href="#your-rights">6. Your Rights and Choices</a></li>
-                <li><a href="#children">7. Children's Privacy</a></li>
-                <li><a href="#international">8. International Data Transfers</a></li>
-                <li><a href="#ai">9. AI and Automated Decision-Making</a></li>
-                <li><a href="#third-party">10. Third-Party Links and Services</a></li>
-                <li><a href="#cookies">11. Cookies and Tracking Technologies</a></li>
-                <li><a href="#california">12. California Privacy Rights (CCPA)</a></li>
-                <li><a href="#gdpr">13. European Privacy Rights (GDPR)</a></li>
-                <li><a href="#changes">14. Changes to This Privacy Policy</a></li>
-                <li><a href="#contact">15. Contact Us</a></li>
+                <li>Continue photo analysis when you switch to other apps</li>
+                <li>Show persistent notifications with real-time progress updates</li>
+                <li>Complete long analysis sessions without interruption</li>
+                <li>Save battery by efficiently managing background tasks</li>
             </ul>
+            <p>This is <strong>NOT</strong> used for data collection or tracking. It only ensures your photo analysis completes successfully even when the app is not in the foreground.</p>
         </div>
 
-        <section id="introduction">
-            <h2>1. Introduction</h2>
-            <p>Welcome to <strong>Sift</strong> (formerly "AI Photo Sorter"), developed by Muhammed Junaid ("we," "our,"
-                or "us"). We are committed to protecting your privacy and ensuring the security of your personal
-                information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information
-                when you use our mobile application.</p>
-            <p>By using Sift, you agree to the collection and use of information in accordance with this policy. If you
-                do not agree with our policies and practices, please do not use our app.</p>
-        </section>
+        <h3>5.2 Why Storage Access Framework (SAF) Isn't Sufficient</h3>
+        <p>Google Play requires us to explain why we use MANAGE_EXTERNAL_STORAGE instead of the more restrictive Storage Access Framework:</p>
 
-        <section id="information-we-collect">
-            <h2>2. Information We Collect</h2>
+        <h4>Technical Reasons:</h4>
+        <ol>
+            <li><strong>Cross-Directory Analysis</strong>: Our duplicate detection algorithm needs to compare photos across ALL folders simultaneously (Camera, Downloads, WhatsApp, Screenshots, etc.). SAF would require users to manually grant access to each folder individually, which is impractical for comprehensive duplicate detection.</li>
 
-            <h3>2.1 Personal Information You Provide</h3>
-            <p><strong>Account Information:</strong></p>
-            <ul>
-                <li>Email address (for authentication)</li>
-                <li>Phone number (optional, for phone-based login)</li>
-                <li>Display name (optional)</li>
-                <li>Google account information (if you sign in with Google)</li>
-            </ul>
-
-            <p><strong>User Preferences:</strong></p>
-            <ul>
-                <li>Questionnaire responses about your photo preferences</li>
-                <li>Feedback on AI sorting decisions</li>
-                <li>App settings and configurations</li>
-            </ul>
-
-            <p><strong>Payment Information:</strong></p>
-            <ul>
-                <li>We do NOT store your credit card or payment details</li>
-                <li>Payment processing is handled securely by Razorpay</li>
-                <li>We only receive transaction confirmation and receipt information</li>
-            </ul>
-
-            <h3>2.2 Information Collected Automatically</h3>
-            <p><strong>Usage Data:</strong></p>
-            <ul>
-                <li>App interaction statistics (e.g., number of images analyzed)</li>
-                <li>Feature usage patterns</li>
-                <li>Error logs and crash reports (via Firebase Crashlytics)</li>
-                <li>Device information (model, OS version, unique device identifiers)</li>
-            </ul>
-
-            <p><strong>Photo Metadata:</strong></p>
-            <ul>
-                <li>File paths and names of images you select for analysis</li>
-                <li>Image analysis results (keep/delete decisions and AI reasoning)</li>
-                <li>Timestamps of when photos were analyzed</li>
-                <li><strong>Important:</strong> We do NOT upload your actual photo files to our servers</li>
-            </ul>
-
-            <h3>2.3 Information We Do NOT Collect</h3>
-            <div class="success-box">
-                <p><strong>We explicitly do NOT:</strong></p>
+            <li><strong>File System Operations</strong>: We need to:
                 <ul>
-                    <li>Upload your photos to our servers (they stay on your device)</li>
-                    <li>Access photos you haven't selected for analysis</li>
-                    <li>Track your location</li>
-                    <li>Access your contacts, messages, or other apps</li>
-                    <li>Monitor your browsing history</li>
-                    <li>Sell your data to advertisers</li>
+                    <li>Read file metadata (creation date, size) from multiple locations</li>
+                    <li>Create organized folders for sorted photos</li>
+                    <li>Move/delete files across different directories during cleanup</li>
+                    <li>SAF's scoped access would require separate permissions for each operation in each folder, breaking the automated workflow.</li>
                 </ul>
-            </div>
-        </section>
+            </li>
 
-        <section id="how-we-use">
-            <h2>3. How We Use Your Information</h2>
+            <li><strong>Hidden Files Access</strong>: We detect duplicates in app-specific directories (like <code>.thumbnails</code>, backup folders) that aren't exposed through Media Store API.</li>
 
-            <h3>3.1 Core Functionality</h3>
-            <p><strong>Photo Analysis:</strong></p>
-            <ul>
-                <li>Send selected photo metadata to Google's Gemini AI API for intelligent sorting decisions</li>
-                <li>Process AI responses to help you organize your photos</li>
-                <li>Learn from your feedback to improve future sorting accuracy</li>
-            </ul>
+            <li><strong>Performance</strong>: Our native duplicate detection library requires absolute file paths for efficient comparison. SAF only provides URIs, which would significantly degrade performance.</li>
+        </ol>
 
-            <p><strong>Account Management:</strong></p>
-            <ul>
-                <li>Authenticate your identity via Firebase Authentication</li>
-                <li>Sync your preferences and learning data across devices</li>
-                <li>Manage your subscription and usage limits</li>
-            </ul>
+        <p><strong>User Benefit</strong>: Comprehensive, automated photo organization across your entire device without repeated permission prompts.</p>
 
-            <p><strong>Payment Processing:</strong></p>
-            <ul>
-                <li>Process payments through Razorpay for API usage packages</li>
-                <li>Track your remaining budget and usage</li>
-                <li>Generate transaction receipts</li>
-            </ul>
+        <hr>
 
-            <h3>3.2 Service Improvement</h3>
-            <ul>
-                <li>Analyze crash reports to fix bugs and improve stability</li>
-                <li>Monitor performance to optimize speed and responsiveness</li>
-                <li>Understand feature usage to prioritize development</li>
-            </ul>
-        </section>
+        <h2>6. Third-Party Services</h2>
 
-        <section id="sharing">
-            <h2>4. How We Share Your Information</h2>
+        <h3>6.1 Google Services</h3>
+        <ul>
+            <li><strong>Firebase Authentication</strong>: Secure user login</li>
+            <li><strong>Firebase Firestore</strong>: Cloud database for AI learning</li>
+            <li><strong>Firebase Cloud Functions</strong>: AI photo analysis</li>
+            <li><strong>Firebase Crashlytics</strong>: Error reporting and crash analysis</li>
+            <li><strong>Google Sign-In</strong>: User authentication</li>
+        </ul>
+        <p><strong>Privacy Policy</strong>: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
 
-            <h3>4.1 Third-Party Service Providers</h3>
-            <p>We use the following trusted services to provide our functionality:</p>
+        <h3>6.2 Google Cloud Platform</h3>
+        <ul>
+            <li><strong>Cloud Functions</strong>: Serverless AI processing</li>
+            <li><strong>Cloud Storage</strong>: Temporary image storage during analysis</li>
+        </ul>
+        <p><strong>Privacy Policy</strong>: <a href="https://cloud.google.com/terms/cloud-privacy-notice" target="_blank">https://cloud.google.com/terms/cloud-privacy-notice</a></p>
 
-            <div class="info-box">
-                <p><strong>Google Firebase (Google LLC):</strong></p>
-                <ul>
-                    <li><strong>Purpose:</strong> Authentication, database, cloud functions, storage, analytics, crash
-                        reporting</li>
-                    <li><strong>Data Shared:</strong> Email, user ID, app usage statistics, crash reports</li>
-                    <li><strong>Privacy Policy:</strong> <a href="https://firebase.google.com/support/privacy"
-                            target="_blank">https://firebase.google.com/support/privacy</a></li>
-                </ul>
-            </div>
+        <hr>
 
-            <div class="info-box">
-                <p><strong>Google Gemini API (Google LLC):</strong></p>
-                <ul>
-                    <li><strong>Purpose:</strong> AI-powered photo analysis</li>
-                    <li><strong>Data Shared:</strong> Image metadata, analysis context, AI learning feedback</li>
-                    <li><strong>Privacy Policy:</strong> <a href="https://ai.google.dev/gemini-api/terms"
-                            target="_blank">https://ai.google.dev/gemini-api/terms</a></li>
-                </ul>
-            </div>
+        <h2>7. Your Rights and Choices</h2>
 
-            <div class="info-box">
-                <p><strong>Razorpay (Razorpay Software Private Limited):</strong></p>
-                <ul>
-                    <li><strong>Purpose:</strong> Payment processing</li>
-                    <li><strong>Data Shared:</strong> Email, transaction amount, payment method details (handled
-                        securely)</li>
-                    <li><strong>Privacy Policy:</strong> <a href="https://razorpay.com/privacy/"
-                            target="_blank">https://razorpay.com/privacy/</a></li>
-                </ul>
-            </div>
+        <h3>7.1 Access and Control</h3>
+        <ul>
+            <li><strong>View your data</strong>: Request a copy of your personal information</li>
+            <li><strong>Update your data</strong>: Change your profile information anytime</li>
+            <li><strong>Delete your data</strong>: Delete your account and associated data</li>
+            <li><strong>Export your data</strong>: Download your AI learning preferences (coming soon)</li>
+        </ul>
 
-            <h3>4.2 Legal Requirements</h3>
-            <p>We may disclose your information if required to do so by law or in response to:</p>
-            <ul>
-                <li>Valid legal processes (subpoenas, court orders)</li>
-                <li>Protection of our rights, property, or safety</li>
-                <li>Prevention of fraud or security threats</li>
-                <li>Compliance with regulatory requirements</li>
-            </ul>
-        </section>
+        <h3>7.2 Privacy Controls</h3>
+        <ul>
+            <li><strong>Disable background processing</strong>: Stop the foreground service anytime</li>
+            <li><strong>Opt out of analytics</strong>: Disable crash reporting and usage statistics (in Settings)</li>
+            <li><strong>Revoke permissions</strong>: Remove storage or photo access (app will stop functioning)</li>
+            <li><strong>Control notifications</strong>: Disable notifications in Android settings</li>
+        </ul>
 
-        <section id="security">
-            <h2>5. Data Storage and Security</h2>
+        <h3>7.3 How to Exercise Your Rights</h3>
+        <p>Email us at: <strong><a href="mailto:mohdjun95@gmail.com">mohdjun95@gmail.com</a></strong></p>
 
-            <h3>5.1 Security Measures</h3>
-            <p>We implement industry-standard security measures:</p>
-            <ul>
-                <li><strong>Encryption:</strong> End-to-end encryption for data transmission (TLS/SSL)</li>
-                <li><strong>Secure Storage:</strong> Encrypted storage for sensitive data in Firebase</li>
-                <li><strong>Access Controls:</strong> Role-based access to backend systems</li>
-                <li><strong>Monitoring:</strong> Automated monitoring for suspicious activity</li>
-                <li><strong>Regular Audits:</strong> Security audits and updates</li>
-            </ul>
+        <hr>
 
-            <h3>5.2 Data Retention</h3>
-            <ul>
-                <li><strong>Active Accounts:</strong> Data retained as long as your account is active</li>
-                <li><strong>Inactive Accounts:</strong> Accounts inactive for 2 years may be deleted after notification
-                </li>
-                <li><strong>Legal Obligations:</strong> Transaction records retained for 7 years (legal requirement)
-                </li>
-                <li><strong>Crash Logs:</strong> Deleted after 90 days</li>
-            </ul>
-        </section>
+        <h2>8. Children's Privacy</h2>
+        <p>Sifty is <strong>not intended for users under 13 years old</strong>. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us immediately, and we will delete it.</p>
 
-        <section id="your-rights">
-            <h2>6. Your Rights and Choices</h2>
+        <hr>
 
-            <h3>6.1 Access and Control</h3>
-            <ul>
-                <li>View all your stored data through app settings</li>
-                <li>Download your data (data portability)</li>
-                <li>Update or correct your information</li>
-                <li>Manage AI learning preferences</li>
-            </ul>
+        <h2>9. International Data Transfers</h2>
+        <p>Your information may be transferred to and processed in countries other than your country of residence. We ensure appropriate safeguards are in place to protect your data in accordance with this Privacy Policy and applicable laws.</p>
 
-            <h3>6.2 Data Deletion</h3>
-            <div class="important-box">
-                <p><strong>You can request:</strong></p>
-                <ul>
-                    <li>Delete specific data (analysis history, feedback)</li>
-                    <li>Reset AI learning</li>
-                    <li>Complete account deletion</li>
-                </ul>
-                <p>We will delete your data within 30 days of your request.</p>
-            </div>
+        <hr>
 
-            <h3>6.3 Your Legal Rights</h3>
-            <p>If you are in the EU, UK, or California, you have additional rights:</p>
-            <ul>
-                <li>Right to know what data we collect</li>
-                <li>Right to access your data</li>
-                <li>Right to correct inaccurate data</li>
-                <li>Right to delete your data</li>
-                <li>Right to data portability</li>
-                <li>Right to object to processing</li>
-                <li>Right to withdraw consent</li>
-            </ul>
-        </section>
+        <h2>10. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by:</p>
+        <ul>
+            <li>Updating the "Last Updated" date at the top of this policy</li>
+            <li>Posting a prominent notice in the App</li>
+            <li>Sending an email notification (for significant changes)</li>
+        </ul>
+        <p>Your continued use of the App after changes constitutes acceptance of the updated policy.</p>
 
-        <section id="children">
-            <h2>7. Children's Privacy</h2>
-            <div class="important-box">
-                <p><strong>Age Restriction:</strong> Sift is not intended for children under 13 years of age. We do not
-                    knowingly collect personal information from children under 13.</p>
-                <p>If you are a parent or guardian and believe your child has provided us with personal information,
-                    please contact us immediately.</p>
-            </div>
-        </section>
+        <hr>
 
-        <section id="international">
-            <h2>8. International Data Transfers</h2>
-            <p>Your information may be transferred to and processed in countries other than your country of residence,
-                including the United States.</p>
-            <p>We ensure appropriate safeguards are in place, including:</p>
-            <ul>
-                <li>Standard contractual clauses approved by the EU Commission</li>
-                <li>Adherence to Privacy Shield principles (where applicable)</li>
-                <li>Compliance with GDPR requirements for international transfers</li>
-            </ul>
-        </section>
-
-        <section id="ai">
-            <h2>9. AI and Automated Decision-Making</h2>
-
-            <h3>9.1 How AI Works</h3>
-            <ul>
-                <li>Google's Gemini AI analyzes photo metadata to suggest keep/delete decisions</li>
-                <li>You have the final say on all decisions (human-in-the-loop)</li>
-                <li>AI learns from your feedback to personalize recommendations</li>
-            </ul>
-
-            <h3>9.2 Transparency</h3>
-            <div class="success-box">
-                <p><strong>We provide:</strong></p>
-                <ul>
-                    <li>Clear explanations for each AI decision</li>
-                    <li>Reasoning behind recommendations (e.g., "blurry," "duplicate," "has people")</li>
-                    <li>Ability to provide feedback and improve accuracy</li>
-                    <li>Option to view and reset your learning data</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="third-party">
-            <h2>10. Third-Party Links and Services</h2>
-            <p>Sift may contain links to third-party websites or services. We are not responsible for the privacy
-                practices of these external sites.</p>
-            <p>We encourage you to review the privacy policies of any third-party services you access through our app.
-            </p>
-        </section>
-
-        <section id="cookies">
-            <h2>11. Cookies and Tracking Technologies</h2>
-            <p>We use minimal tracking technologies:</p>
-            <ul>
-                <li><strong>Essential Cookies:</strong> Session management and security tokens</li>
-                <li><strong>Analytics:</strong> Firebase Analytics to understand app usage</li>
-                <li><strong>No Advertising:</strong> We do NOT use cookies for advertising</li>
-            </ul>
-        </section>
-
-        <section id="california">
-            <h2>12. California Privacy Rights (CCPA)</h2>
-            <p>If you are a California resident, you have specific rights under CCPA:</p>
-            <ul>
-                <li>Right to know what personal information we collect</li>
-                <li>Right to delete your personal information</li>
-                <li>Right to opt-out of sale (we do not sell data)</li>
-                <li>Right to non-discrimination</li>
-            </ul>
-            <p><strong>Response Time:</strong> We will respond within 45 days.</p>
-        </section>
-
-        <section id="gdpr">
-            <h2>13. European Privacy Rights (GDPR)</h2>
-            <p>If you are in the EEA, UK, or Switzerland, you have rights under GDPR:</p>
-            <ul>
-                <li>Legal basis for processing (consent, contract, legitimate interests)</li>
-                <li>Right to lodge a complaint with your data protection authority</li>
-                <li>Standard contractual clauses for cross-border transfers</li>
-            </ul>
-        </section>
-
-        <section id="changes">
-            <h2>14. Changes to This Privacy Policy</h2>
-            <p>We may update this Privacy Policy from time to time. We will notify you via email and/or in-app
-                notification of any material changes.</p>
-            <p>Your continued use of Sift after changes constitutes acceptance of the updated policy.</p>
-        </section>
-
-        <section id="contact">
-            <h2>15. Contact Us</h2>
-            <div class="contact-box">
-                <h2>📧 Get in Touch</h2>
-                <p>If you have questions, concerns, or requests regarding this Privacy Policy:</p>
-                <p><strong>Email:</strong> <a href="mailto:mohammed.junaid227@gmail.com">mohammed.junaid227@gmail.com</a></p>
-                <p><strong>Developer:</strong> Muhammed Junaid</p>
-                <p><strong>Response Time:</strong> We aim to respond within 7 business days</p>
-            </div>
-        </section>
-
-        <div class="success-box" style="margin-top: 40px;">
-            <h3>📱 Summary of Key Points</h3>
-            <ul>
-                <li><strong>What We Collect:</strong> Email, preferences, usage stats, crash reports</li>
-                <li><strong>What We Don't Upload:</strong> Your actual photos (they stay on your device)</li>
-                <li><strong>AI Processing:</strong> Google Gemini analyzes metadata, you have final say</li>
-                <li><strong>Payments:</strong> Handled securely by Razorpay</li>
-                <li><strong>Security:</strong> Encryption, secure storage, regular audits</li>
-                <li><strong>Your Rights:</strong> Access, delete, download, control your data</li>
-            </ul>
+        <div class="contact-box">
+            <h2>11. Contact Us</h2>
+            <p>If you have questions or concerns about this Privacy Policy, please contact us:</p>
+            <p><strong>Email</strong>: <a href="mailto:mohdjun95@gmail.com">mohdjun95@gmail.com</a><br>
+            <strong>GitHub</strong>: <a href="https://github.com/mohdjun95/sifty-ai-photo-sorter" target="_blank">https://github.com/mohdjun95/sifty-ai-photo-sorter</a></p>
         </div>
 
-        <section style="margin-top: 40px; text-align: center;">
-            <h2>Consent</h2>
-            <p>By using Sift, you acknowledge that you have read, understood, and agree to be bound by this Privacy
-                Policy.</p>
-            <p style="margin-top: 20px; font-weight: bold; color: #009688;">Thank you for trusting Sift with your photo
-                organization needs. Your privacy is our priority.</p>
-        </section>
+        <hr>
 
-        <footer>
-            <p><strong>Sift - AI Photo Sorter</strong></p>
-            <p>Developed by Muhammed Junaid</p>
-            <p>Last Updated: November 9, 2025</p>
-            <p style="margin-top: 20px; font-size: 0.85em;">This Privacy Policy is designed to comply with GDPR, CCPA,
-                and Google Play Store requirements.</p>
-        </footer>
+        <h2>12. Legal Compliance</h2>
+
+        <h3>12.1 GDPR Compliance (European Users)</h3>
+        <p>If you are in the European Economic Area (EEA), you have additional rights under GDPR:</p>
+        <ul>
+            <li>Right to data portability</li>
+            <li>Right to object to processing</li>
+            <li>Right to lodge a complaint with supervisory authorities</li>
+        </ul>
+
+        <h3>12.2 CCPA Compliance (California Users)</h3>
+        <p>California residents have the right to:</p>
+        <ul>
+            <li>Know what personal information is collected</li>
+            <li>Request deletion of personal information</li>
+            <li>Opt-out of the sale of personal information (Note: We do NOT sell your data)</li>
+        </ul>
+
+        <h3>12.3 Other Jurisdictions</h3>
+        <p>We comply with applicable data protection laws in all jurisdictions where the App is available.</p>
+
+        <hr>
+
+        <h2>13. Data Sharing and Disclosure</h2>
+
+        <h3>13.1 We Do NOT Sell Your Data</h3>
+        <p>We will <strong>never</strong> sell, rent, or trade your personal information to third parties for marketing purposes.</p>
+
+        <h3>13.2 When We May Share Data</h3>
+        <p>We may share your information only in these limited circumstances:</p>
+        <ul>
+            <li><strong>Service Providers</strong>: With trusted third parties who help operate the App (e.g., Google Cloud, Firebase) under strict confidentiality agreements</li>
+            <li><strong>Legal Requirements</strong>: If required by law, court order, or government request</li>
+            <li><strong>Safety and Protection</strong>: To protect the rights, property, or safety of Sifty, our users, or the public</li>
+            <li><strong>Business Transfers</strong>: In the event of a merger, acquisition, or sale of assets (you will be notified)</li>
+            <li><strong>With Your Consent</strong>: When you explicitly authorize us to share your data</li>
+        </ul>
+
+        <hr>
+
+        <h2>14. Cookies and Tracking</h2>
+        <p>Sifty does <strong>NOT</strong> use cookies or tracking technologies for advertising purposes. We only use:</p>
+        <ul>
+            <li><strong>Essential session data</strong>: To keep you logged in</li>
+            <li><strong>Analytics</strong>: Firebase Analytics for app improvement (anonymized)</li>
+            <li><strong>Crash reporting</strong>: To fix bugs and improve stability</li>
+        </ul>
+        <p>You can opt out of analytics in the App Settings.</p>
+
+        <hr>
+
+        <h2>15. Your California Privacy Rights</h2>
+        <p>If you are a California resident, you have the right to request information about our disclosure of personal information to third parties for their direct marketing purposes. To make such a request, please contact us at <strong><a href="mailto:mohdjun95@gmail.com">mohdjun95@gmail.com</a></strong>.</p>
+
+        <hr>
+
+        <div class="success">
+            <h2>Acknowledgment</h2>
+            <p>By using Sifty, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.</p>
+            <p style="text-align: center; margin-top: 20px;"><strong>Thank you for trusting Sifty with your photo organization needs!</strong></p>
+        </div>
+
+        <hr>
+
+        <h2>Version History</h2>
+        <ul>
+            <li><strong>v1.0</strong> - December 27, 2025: Initial privacy policy for public release</li>
+        </ul>
+
     </div>
 </body>
-
 </html>
+
