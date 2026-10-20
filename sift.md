@@ -1,496 +1,180 @@
-# Privacy Policy for Sifty - AI Photo Sorter
+# Privacy Policy for Nytcrew (formerly Sifty)
 
-**Last Updated: December 2, 2025**  
-**Effective Date: December 2, 2025**
-
----
-
-## 🔒 Key Highlights
-
-✅ **Your Photos Stay Private** - We never upload your photos to our servers. All image analysis happens locally on your device and securely through Google's Gemini API.
-
-✅ **No Data Selling** - We will never sell, rent, or share your personal information with third parties for marketing purposes.
-
-✅ **Minimal Data Collection** - We only collect what's necessary to provide you with the best photo sorting experience.
-
-✅ **Free Beta Version** - Currently free to use with 10,000 complimentary credits. No payment processing in this version.
-
-✅ **You're in Control** - You can delete your account and data at any time through the app settings.
-
-✅ **Transparent AI** - We clearly show you why the AI makes decisions about your photos, and you have the final say.
+**Last Updated:** October 20, 2026
+**Effective Date:** October 20, 2026
 
 ---
 
-## 1. Introduction
+## The short version
 
-Welcome to **Sifty** (the "App"), developed by Muhammed Junaid ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.
+- **Your photos never leave your phone.** Nytcrew looks at your photos with an AI model that runs on your phone. No photo, thumbnail or copy of a photo is ever uploaded, to us or to anyone else.
+- **To decide what's clutter, Nytcrew sends a short text description of each photo** (one or two sentences, plus up to 25 words of text visible in the photo) and the photo's age in days to our server, which asks Google's Gemini to score it. Emails, links, @handles and long numbers are masked on your phone before anything is sent.
+- **We back up your results** (scores, the masked description and your keep/delete choices) to your Nytcrew account so you don't lose them if you reinstall.
+- **We don't sell your data, show ads or use advertising trackers.**
 
-By using Sifty, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, please do not use our app.
-
----
-
-## 2. Information We Collect
-
-### 2.1 Personal Information You Provide
-
-**Account Information:**
-- Email address (for authentication)
-- Phone number (optional, for phone-based login)
-- Display name (optional)
-- Google account information (if you sign in with Google)
-
-**User Preferences:**
-- Questionnaire responses about your photo preferences
-- Feedback on AI sorting decisions
-- App settings and configurations
-
-
-### 2.2 Information Collected Automatically
-
-**Usage Data:**
-- App interaction statistics (e.g., number of images analyzed)
-- Feature usage patterns
-- Error logs and crash reports (via Firebase Crashlytics)
-- Device information (model, OS version, unique device identifiers)
-
-**Photo Metadata:**
-- File paths and names of images you select for analysis
-- Image analysis results (keep/delete decisions and AI reasoning)
-- Timestamps of when photos were analyzed
-- **Important:** We do NOT upload your actual photo files to our servers
-
-**Credits Usage Data:**
-- Credit consumption tracking
-- Analysis history and statistics
-- App performance metrics
-- API usage statistics
-
-### 2.3 Information We Do NOT Collect
-
-We explicitly do NOT:
-- Upload your photos to our servers (they stay on your device)
-- Access photos you haven't selected for analysis
-- Track your location
-- Access your contacts, messages, or other apps
-- Monitor your browsing history
-- Sell your data to advertisers
+The rest of this policy explains each point in detail.
 
 ---
 
-## 3. How We Use Your Information
+## 1. Who we are
 
-### 3.1 Core Functionality
+Nytcrew, formerly called Sifty ("we", "our", "us"), is an Android app that keeps your photo gallery clean and searchable. It is developed by an independent developer, reachable at **mohdjun95@gmail.com**.
 
-**Photo Analysis:**
-- Send selected photo metadata to Google's Gemini AI API for intelligent sorting decisions
-- Process AI responses to help you organize your photos
-- Learn from your feedback to improve future sorting accuracy
-
-**Account Management:**
-- Authenticate your identity via Firebase Authentication
-- Sync your preferences and learning data across devices
-- Manage your credit usage and limits
-
-### 3.2 Service Improvement
-
-**AI Learning:**
-- Use your feedback (keep/delete decisions) to personalize AI recommendations
-- Improve sorting accuracy based on your preferences
-- Generate context from feedback to train the AI specifically for you
-
-**App Enhancement:**
-- Analyze crash reports to fix bugs and improve stability
-- Monitor performance to optimize speed and responsiveness
-- Understand feature usage to prioritize development
-
-### 3.3 Communication
-
-**Transactional Emails:**
-- Account verification and password resets
-- Important app updates and security notices
-
-**Optional Notifications:**
-- Analysis progress updates
-- Credit low warnings
-- AI learning updates available
+This policy covers the Nytcrew app, version 2.6 and later ("Private Mode"). Earlier versions (2.4 and older) worked differently and sent compressed photos to the cloud for analysis; their policy is [here](https://mohdjun95.github.io/privacy-policies/sift-v1.html). If you still use an older version, please update.
 
 ---
 
-## 4. How We Share Your Information
+## 2. What stays on your phone
 
-### 4.1 Third-Party Service Providers
+These never leave your device:
 
-We use the following trusted services to provide our functionality:
-
-**Google Firebase (Google LLC):**
-- **Purpose:** Authentication, database, cloud functions, storage, analytics, crash reporting
-- **Data Shared:** Email, user ID, app usage statistics, crash reports
-- **Privacy Policy:** https://firebase.google.com/support/privacy
-
-**Google Gemini API (Google LLC):**
-- **Purpose:** AI-powered photo analysis
-- **Data Shared:** Image metadata, analysis context, AI learning feedback
-- **Privacy Policy:** https://ai.google.dev/gemini-api/terms
-
-**Firebase Crashlytics (Google LLC):**
-- **Purpose:** Error monitoring and crash reporting
-- **Data Shared:** Device information, app state during crashes, error logs
-- **Privacy Policy:** https://firebase.google.com/support/privacy
-
-### 4.2 Legal Requirements
-
-We may disclose your information if required to do so by law or in response to:
-- Valid legal processes (subpoenas, court orders)
-- Protection of our rights, property, or safety
-- Prevention of fraud or security threats
-- Compliance with regulatory requirements
-
-### 4.3 Business Transfers
-
-If we are involved in a merger, acquisition, or sale of assets, your information may be transferred. We will notify you via email and/or prominent notice in the app before your information is transferred and becomes subject to a different privacy policy.
+- **Your photos**, in any form: originals, thumbnails or compressed copies.
+- **The full text read from your photos.** Nytcrew uses Google ML Kit, on your phone, to read text in photos (for example on a screenshot or a document) so that you can search for it. That text is stored only on your phone.
+- **Visual fingerprints** used to find similar shots (a small numeric summary of how a photo looks).
+- **Your search history.**
+- **The AI model itself** (about 330 MB to 1.6 GB, depending on the app version), which is stored in the app's private storage and excluded from Android backup.
 
 ---
 
-## 5. Data Storage and Security
+## 3. What we collect, and why
 
-### 5.1 Where Your Data is Stored
+### 3.1 Account information
+When you sign in with Google or with an email and password, Firebase Authentication stores your **email address**, your **name** (if you signed in with Google) and a **user ID**. We use these only to keep your account and your backup.
 
-**On Your Device:**
-- Your actual photo files (never uploaded)
-- App preferences and settings
-- Analysis history and feedback
-- Cached data
+### 3.2 Text descriptions sent for scoring
+For each photo, your phone sends our server (a Firebase Cloud Function):
+- a **short description** written on your phone (for example, "A screenshot of a train ticket booking page"),
+- **up to 25 words of text visible in the photo**, if it has any,
+- the **photo's age in days**.
 
-**On Our Servers (Firebase):**
-- Account information (encrypted)
-- AI learning context (your preferences)
-- Usage statistics and credit tracking
+Before sending, the app masks email addresses, web links, @handles, long digit runs (such as phone, card or account numbers) and code-like strings.
 
-**Geographic Location:**
-- Data is stored on Google Firebase servers (primarily in US data centers)
-- Subject to US data protection laws and Google's security standards
+Our server forwards this text to **Google's Gemini API**, which returns seven scores (for example, how likely the photo is a memory, a document or clutter). Our server does not store the text: it returns the scores to your phone and keeps only a record of when each request was made, to limit how often the server can be called. Google processes the text under the [Gemini API terms](https://ai.google.dev/gemini-api/terms).
 
-### 5.2 Security Measures
+### 3.3 Your cloud backup
+So you don't lose your results when you change phones or reinstall, Nytcrew stores the following in your account (Firebase Firestore), for each photo it has scored:
+- the photo's **file name and folder** on your phone, its media ID, file size and last-modified date,
+- the **masked description** and the seven scores,
+- whether Nytcrew suggested keeping it, and **your keep/delete choice** in Review.
 
-We implement industry-standard security measures:
+It also stores:
+- your **learned preferences**: the weights Nytcrew learned from your Review choices,
+- **night-scan statistics**: counts of how nights went (for example, "scanned while charging" or "battery too low") and a battery-level band. These are counts only, with no times or locations.
 
-**Technical Safeguards:**
-- End-to-end encryption for data transmission (TLS/SSL)
-- Encrypted storage for sensitive data in Firebase
-- Secure API key management (server-side only)
-- Regular security audits and updates
+We use this data only to restore your results and to improve how Nytcrew works for you. Only you (signed in) and our backend can read it. Security rules prevent anyone else from accessing it.
 
-**Access Controls:**
-- Role-based access to backend systems
-- Multi-factor authentication for admin access
-- Automated monitoring for suspicious activity
+### 3.4 Crash and error reports
+When the app crashes or a scan fails, **Firebase Crashlytics** receives a report with the error, the app version and technical details about your phone: maker and model, Android version, RAM, processor type and, for scans, how long the scan ran. If the on-device AI has trouble with a photo, the report also includes the free memory and battery level at that moment, how long the photo took, and the photo's file type and size (never its name or folder). Reports never include your photos, descriptions, file names, folders or email address, and they are not linked to your account.
 
-**Data Protection:**
-- Regular backups
-- Disaster recovery procedures
-- Incident response plan
+### 3.5 App integrity checks
+**Firebase App Check** (using Google Play Integrity) confirms that requests to our server come from the genuine Nytcrew app. This helps stop abuse of our servers. Google processes device integrity signals for this check.
 
-### 5.3 Data Retention
+### 3.6 Model download
+The first time you allow photo access, Nytcrew downloads its AI model from **Hugging Face** (huggingface.co). Like any download, Hugging Face can see your IP address. No personal data is sent with the download.
 
-**Active Accounts:**
-- We retain your data as long as your account is active
-- AI learning data is kept to improve your experience
-
-**Inactive Accounts:**
-- Accounts inactive for 2 years may be deleted after notification
-- You can request immediate deletion at any time
-
-**Legal Obligations:**
-- Crash logs deleted after 90 days
-- Usage data retained for service improvement
+### 3.7 What we do NOT collect
+- No photos, thumbnails or copies of photos
+- No location data
+- No contacts, messages or call logs
+- No advertising ID, and no advertising or analytics trackers
+- No payment details (the current version has no in-app purchases)
 
 ---
 
-## 6. Your Rights and Choices
+## 4. Permissions
 
-### 6.1 Access and Control
+| Permission | Why Nytcrew needs it | Required? |
+|---|---|---|
+| **Photos** (READ_MEDIA_IMAGES; READ_EXTERNAL_STORAGE on older Android) | To look at your photos on your phone | Yes. Nytcrew can't work without it. If you allow only some photos, Nytcrew works on those |
+| **Notifications** (POST_NOTIFICATIONS) | To show scan progress and let you review photos from a notification | Optional |
+| **Background scanning** (FOREGROUND_SERVICE, FOREGROUND_SERVICE_DATA_SYNC, WAKE_LOCK) | To keep scanning with the screen off, with a visible notification while it runs | Required for scanning |
+| **Battery optimization exemption** (REQUEST_IGNORE_BATTERY_OPTIMIZATIONS) | So nightly scans aren't stopped by Android. You grant this in Android's settings | Optional |
+| **Media management** (MANAGE_MEDIA, Android 12+) | "One-tap delete": move photos you chose to delete to the phone's trash without an extra Android prompt. You grant this in Android's settings | Optional |
+| **Internet** (INTERNET) | To sign in, score descriptions, back up results and download the model | Yes |
 
-**Account Access:**
-- View all your stored data through the app settings
-- Download your data (data portability)
-- Update or correct your information
-
-**Privacy Controls:**
-- Enable/disable background processing notifications
-- Control which folders the app can access
-- Manage AI learning preferences
-
-### 6.2 Data Deletion
-
-**Delete Specific Data:**
-- Clear analysis history
-- Reset AI learning (delete feedback data)
-- Remove specific preferences
-
-**Delete Your Account:**
-- Request complete account deletion through app settings
-- We will delete your data within 30 days
-- Some anonymized usage data may be retained for service improvement
-
-### 6.3 Marketing Communications
-
-**Opt-Out:**
-- We do not send marketing emails by default
-- If we introduce marketing communications, you can unsubscribe anytime
-- Transactional emails (security alerts, account notifications) cannot be disabled
-
-### 6.4 Your Legal Rights (GDPR/CCPA)
-
-If you are in the EU, UK, or California, you have additional rights:
-
-**Right to Know:**
-- What personal data we collect
-- How we use it
-- Who we share it with
-
-**Right to Access:**
-- Request a copy of your data
-
-**Right to Rectification:**
-- Correct inaccurate data
-
-**Right to Erasure:**
-- Request deletion of your data
-
-**Right to Restrict Processing:**
-- Limit how we use your data
-
-**Right to Data Portability:**
-- Receive your data in a portable format
-
-**Right to Object:**
-- Object to certain types of processing
-
-**Right to Withdraw Consent:**
-- Withdraw consent at any time
-
-To exercise these rights, contact us at: privacy@siftapp.com (or your designated email)
+Nytcrew never deletes a photo on its own. Photos are deleted only when you choose to delete them, and they go to your phone's trash, where Android keeps them for 30 days.
 
 ---
 
-## 7. Children's Privacy
+## 5. Who we share data with
 
-Sift is **not intended for children under 13 years of age**. We do not knowingly collect personal information from children under 13.
+We **never sell or rent** your data, and we don't share it for advertising.
 
-If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately. We will take steps to delete such information from our systems.
+Data is processed only by these service providers, to run the app:
 
----
+| Provider | What for | Privacy policy |
+|---|---|---|
+| Google Firebase (Authentication, Firestore, Cloud Functions, Crashlytics, App Check) | Account, backup, scoring server, crash reports, integrity checks | [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy) |
+| Google Gemini API | Scoring the text descriptions | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| Hugging Face | Hosting the AI model download | [huggingface.co/privacy](https://huggingface.co/privacy) |
 
-## 8. International Data Transfers
-
-Your information may be transferred to and processed in countries other than your country of residence, including the United States, where our service providers operate.
-
-These countries may have different data protection laws than your country. By using Sift, you consent to the transfer of your information to these countries.
-
-We ensure appropriate safeguards are in place, including:
-- Standard contractual clauses approved by the EU Commission
-- Adherence to Privacy Shield principles (where applicable)
-- Compliance with GDPR requirements for international transfers
+We may also disclose data if the law requires it, or to protect the safety of our users or the public.
 
 ---
 
-## 9. AI and Automated Decision-Making
+## 6. How long we keep data
 
-### 9.1 How AI Works in Sift
-
-**Photo Analysis:**
-- Google's Gemini AI analyzes photo metadata to suggest keep/delete decisions
-- You have the final say on all decisions (human-in-the-loop)
-- AI learns from your feedback to personalize recommendations
-
-**No Fully Automated Decisions:**
-- We do NOT make automated decisions that significantly affect you without human review
-- You always review and approve/reject AI suggestions
-- You can abort processing at any time
-
-### 9.2 Transparency and Explainability
-
-**AI Reasoning:**
-- We show you why the AI made each decision
-- Clear explanations for each photo (e.g., "blurry," "duplicate," "has people")
-- You can provide feedback to improve accuracy
-
-**Learning Context:**
-- AI builds a personalized context from your feedback
-- You can view and reset your learning data anytime
-- Context updates happen only with your explicit approval
+- **On your phone:** until you uninstall Nytcrew or clear its data.
+- **Account and cloud backup:** while your account exists. When you delete your account (see section 7), we delete your account and backup within 30 days.
+- **Scoring text:** not stored by our server. It is processed and discarded. The request times kept for rate limiting are removed with your account.
+- **Crash reports:** kept by Firebase Crashlytics for up to 90 days.
 
 ---
 
-## 10. Third-Party Links and Services
+## 7. Your choices and rights
 
-### 10.1 External Links
+- **Delete your account and data:** email **mohdjun95@gmail.com** from the address you signed in with, with the subject "Delete my Nytcrew account". We'll delete your account, your cloud backup, your learned preferences and your night statistics within 30 days and confirm by email. Your photos are not affected: they stay on your phone.
+- **Get a copy of your data:** email us and we'll send you your cloud backup.
+- **Correct your data:** email us.
+- **Withdraw permissions:** turn off photo, notification or other access at any time in Android's settings. Nytcrew stops scanning without photo access.
+- **Stop scanning:** tap Stop at any time, or turn off nightly scans and the bedtime reminder in Settings.
 
-Sift may contain links to third-party websites or services (e.g., payment gateways). We are not responsible for the privacy practices of these external sites.
-
-We encourage you to review the privacy policies of any third-party services you access through our app.
-
-### 10.2 Social Media Integration
-
-If you sign in using Google Sign-In:
-- We receive basic profile information (name, email, profile picture)
-- We do NOT access your Google Drive, Photos, or other Google services
-- You can revoke access through your Google account settings
+Depending on where you live, you may have further rights:
+- **India (Digital Personal Data Protection Act, 2023):** you can access, correct and erase your data, nominate someone to exercise your rights, and raise a grievance with us at the email above. If you're not satisfied with our response, you can complain to the Data Protection Board of India.
+- **EU/UK (GDPR):** you can also object to or restrict processing, ask for data portability, and complain to your data protection authority. We process your data to provide the service you asked for (contract) and, for crash reports and integrity checks, for our legitimate interest in keeping the app reliable and secure.
+- **California (CCPA/CPRA):** you can know, delete and correct your data. We do not sell or share personal information for advertising.
 
 ---
 
-## 11. Cookies and Tracking Technologies
+## 8. Security
 
-### 11.1 What We Use
+- All data is sent over encrypted connections (HTTPS/TLS).
+- Your cloud backup can only be read or written by your signed-in account. Our database security rules enforce this.
+- Our scoring server accepts only requests from signed-in users of the genuine app, and limits how often it can be called.
+- Sign-in details on your phone are kept in Android's encrypted secure storage.
 
-**Essential Cookies:**
-- Session management (keep you logged in)
-- Security tokens (prevent unauthorized access)
-
-**Analytics:**
-- Firebase Analytics to understand app usage
-- Crash reports to fix bugs
-
-**No Advertising Cookies:**
-- We do NOT use cookies for advertising or tracking across websites
-
-### 11.2 Your Control
-
-You cannot disable essential cookies without affecting app functionality. Analytics can be limited through device settings (see Section 12).
+No system is perfectly secure, but we design Nytcrew to keep as little data off your phone as possible.
 
 ---
 
-## 12. California Privacy Rights (CCPA)
+## 9. Children
 
-If you are a California resident, you have specific rights under the California Consumer Privacy Act (CCPA):
-
-**Right to Know:**
-- Categories of personal information collected
-- Sources of information
-- Business purposes for collection
-- Categories of third parties with whom we share data
-
-**Right to Delete:**
-- Request deletion of your personal information
-
-**Right to Opt-Out:**
-- We do not sell personal information (no opt-out needed)
-
-**Right to Non-Discrimination:**
-- We will not discriminate against you for exercising your rights
-
-**Shine the Light Law:**
-- Request information about disclosure to third parties for direct marketing
-
-To exercise your CCPA rights, contact us at: privacy@siftapp.com
-
-**Response Time:** We will respond within 45 days.
+Nytcrew is not intended for children under 13 and we don't knowingly collect their data. In India, users under 18 should use Nytcrew only with a parent's or guardian's consent. If you believe a child has given us personal data, email us and we will delete it.
 
 ---
 
-## 13. European Privacy Rights (GDPR)
+## 10. International transfers
 
-If you are in the European Economic Area (EEA), United Kingdom, or Switzerland, you have rights under the General Data Protection Regulation (GDPR):
-
-**Legal Basis for Processing:**
-- **Consent:** You agree to our data practices by using the app
-- **Contract:** Processing necessary to provide our services
-- **Legitimate Interests:** Improve app performance and security
-- **Legal Obligations:** Comply with laws and regulations
-
-**Data Controller:**
-- Muhammed Junaid (Sift Developer)
-
-**Data Protection Officer:**
-- Contact: privacy@siftapp.com (or your designated DPO email)
-
-**Supervisory Authority:**
-- You have the right to lodge a complaint with your local data protection authority
-
-**Cross-Border Transfers:**
-- We comply with GDPR requirements for data transfers outside the EEA
-- Standard contractual clauses in place with service providers
+Our service providers may process data in countries other than yours, including the United States. They protect it under their own data protection terms.
 
 ---
 
-## 14. Changes to This Privacy Policy
+## 11. Changes to this policy
 
-We may update this Privacy Policy from time to time to reflect:
-- Changes in our practices
-- Legal or regulatory requirements
-- New features or services
-
-**Notification of Changes:**
-- We will notify you via email and/or in-app notification
-- "Last Updated" date at the top will be revised
-- Material changes will require your re-consent
-
-**Your Continued Use:**
-- Continued use of Sift after changes constitutes acceptance
-- If you don't agree, please discontinue use and delete your account
+When we change this policy, we'll update the date at the top. For important changes, such as sending new kinds of data off your phone, we'll tell you in the app before the change takes effect.
 
 ---
 
-## 15. Contact Us
+## 12. Contact
 
-If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
+Questions, requests or complaints (including grievances under India's DPDP Act):
 
-**Email:** privacy@siftapp.com (replace with your actual email)
-
-**Developer:** Muhammed Junaid
-
-**Response Time:** We aim to respond within 7 business days.
-
-**Mailing Address:** (Add your physical address if required by law)
-
-**Data Protection Officer:** privacy@siftapp.com
+**Email:** mohdjun95@gmail.com
 
 ---
 
-## 16. Additional Information
+## Version history
 
-### 16.1 Open Source Components
-
-Sift uses open-source libraries and components. Each component has its own license and privacy considerations. Major components include:
-- Flutter framework (BSD license)
-- Firebase SDK (Google APIs Terms)
-- Image processing libraries
-
-### 16.2 Accessibility
-
-We are committed to making our Privacy Policy accessible. If you need this policy in an alternative format, please contact us.
-
-### 16.3 Language
-
-This Privacy Policy is provided in English. In case of conflicts between translations, the English version prevails.
-
----
-
-## 17. Consent
-
-By using Sift, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.
-
-If you do not agree with any part of this policy, please do not use our app.
-
-**Date of Consent:** Your first use of the app after this policy takes effect.
-
----
-
-## Summary of Key Points
-
-📱 **What We Collect:** Email, preferences, usage stats, crash reports  
-🔒 **What We Don't Upload:** Your actual photos (they stay on your device)  
-🤖 **AI Processing:** Google Gemini analyzes metadata, you have final say  
-💳 **Payments:** Handled securely by Razorpay (we don't store card details)  
-🛡️ **Security:** Encryption, secure storage, regular audits  
-✅ **Your Rights:** Access, delete, download, control your data  
-📧 **Contact:** privacy@siftapp.com  
-🔄 **Updates:** We'll notify you of any changes  
-
----
-
-**Thank you for trusting Sift with your photo organization needs. Your privacy is our priority.**
-
----
-
-*This Privacy Policy is designed to comply with GDPR, CCPA, and Google Play Store requirements. For specific legal advice, consult with a legal professional.*
+- **v2.1** (October 20, 2026): The app is now called Nytcrew (formerly Sifty). Crash reports can include memory, battery and timing details for a photo the on-device AI had trouble with.
+- **v2.0** (October 14, 2026): Rewritten for Private Mode (app version 2.6+). Photos are no longer uploaded. Analysis is done on the device, and only masked text descriptions are scored in the cloud.
+- **v1.0** (December 27, 2025): Initial policy (cloud analysis of compressed photos, app versions up to 2.4).

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sifty - Privacy Policy</title>
+    <title>Nytcrew (formerly Sifty) Privacy Policy</title>
     <style>
         * {
             margin: 0;
@@ -183,421 +183,81 @@
 </head>
 <body>
     <div class="container">
-        <h1>Privacy Policy for Sifty</h1>
-        <p class="meta"><strong>Last Updated:</strong> December 27, 2025<br>
-        <strong>Effective Date:</strong> December 27, 2025</p>
-
-        <hr>
-
-        <h2>Introduction</h2>
-        <p>Welcome to <strong>Sifty</strong> ("we," "our," or "us"). Sifty is an AI-powered photo organization app that helps you intelligently sort, categorize, and manage your photo library. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application (the "App").</p>
-
-        <div class="important">
-            <p><strong>By using Sifty, you agree to the collection and use of information in accordance with this policy.</strong> If you do not agree with the terms of this privacy policy, please do not access or use the application.</p>
-        </div>
-
-        <hr>
-
-        <h2>1. Information We Collect</h2>
-
-        <h3>1.1 Personal Information</h3>
-        <p>When you use Sifty, we may collect the following personal information:</p>
-        <ul>
-            <li><strong>Account Information</strong>: Email address, name, and authentication credentials when you sign up using Google Sign-In or email/password</li>
-            <li><strong>Profile Information</strong>: User preferences, photo sorting preferences, and AI learning feedback you provide</li>
-            <li><strong>Device Information</strong>: Device model, operating system version, unique device identifiers</li>
-        </ul>
-
-        <h3>1.2 Photos and Media Access</h3>
-        <ul>
-            <li><strong>Photo Access</strong>: The App requires access to your device's photo library (READ_MEDIA_IMAGES permission) to:
-                <ul>
-                    <li>Scan and analyze photos for duplicate detection</li>
-                    <li>Organize photos based on your preferences</li>
-                    <li>Apply AI-powered sorting and categorization</li>
-                </ul>
-            </li>
-            <li><strong>Storage Access</strong>: The App requires storage access (MANAGE_EXTERNAL_STORAGE permission) to:
-                <ul>
-                    <li>Read photos from multiple folders across your device</li>
-                    <li>Create organized folders for sorted photos</li>
-                    <li>Move or delete duplicate/unwanted photos based on your decisions</li>
-                </ul>
-            </li>
-        </ul>
-
-        <div class="success">
-            <p><strong>Important</strong>: All photo processing happens <strong>locally on your device</strong>. We do <strong>NOT</strong> upload your photos to our servers unless explicitly required for AI analysis (see section 1.3).</p>
-        </div>
-
-        <h3>1.3 Data Sent to Cloud Services</h3>
-        <p>For AI-powered photo analysis, we send <strong>compressed, low-resolution versions</strong> of selected photos to:</p>
-        <ul>
-            <li><strong>Firebase Cloud Functions</strong>: To perform AI-based image analysis, duplicate detection, and relevance scoring</li>
-            <li><strong>Google Cloud AI (Gemini)</strong>: For intelligent photo categorization based on your preferences</li>
-            <li><strong>Firebase Firestore</strong>: Temporary storage of analysis results and AI learning data</li>
-        </ul>
-
-        <h4>What we send:</h4>
-        <ul>
-            <li>Compressed photo thumbnails (significantly reduced file size - typically under 100KB per image)</li>
-            <li>Photo metadata (file name, creation date, file size)</li>
-            <li>Your user story and photo preferences (what types of photos you want to keep/delete)</li>
-            <li>Your feedback from photo reviews (to train the AI to match your preferences)</li>
-            <li>Analysis progress and session data</li>
-        </ul>
-
-        <h4>What we DON'T send:</h4>
-        <ul>
-            <li>Original full-resolution photos</li>
-            <li>Photos from folders you haven't selected for analysis</li>
-            <li>Any personal information beyond what's needed for AI learning</li>
-            <li>Location data or EXIF metadata (unless you explicitly enable it in settings)</li>
-        </ul>
-
-        <h4>How long we keep it:</h4>
-        <ul>
-            <li>Compressed thumbnails: Deleted immediately after analysis</li>
-            <li>AI learning data: Retained indefinitely to improve your personalized sorting (anonymized if you delete your account)</li>
-            <li>User feedback: Stored to train the AI model (up to 20 random samples per learning cycle)</li>
-        </ul>
-
-        <h3>1.4 Usage Data</h3>
-        <p>We automatically collect:</p>
-        <ul>
-            <li>App usage statistics (features used, analysis sessions)</li>
-            <li>Error logs and crash reports (via Firebase Crashlytics)</li>
-            <li>Performance metrics (app response times, battery usage)</li>
-        </ul>
-
-        <h3>1.5 Background Processing Data</h3>
-        <p>When the App runs in the background (using FOREGROUND_SERVICE_DATA_SYNC permission):</p>
-        <ul>
-            <li>Processing progress and status</li>
-            <li>Temporary analysis results</li>
-            <li>Notification data to keep you informed</li>
-        </ul>
-
-        <hr>
-
-        <h2>2. How We Use Your Information</h2>
-
-        <h3>2.1 Core Functionality</h3>
-        <ul>
-            <li><strong>Phased Photo Analysis</strong>: Analyzing your photos in three intelligent phases:
-                <ul>
-                    <li><strong>Phase 1 (Scoping)</strong>: Initial analysis of 147 images to learn your preferences</li>
-                    <li><strong>Phase 2 (Dusting)</strong>: Deeper analysis of 210 images to refine AI understanding</li>
-                    <li><strong>Phase 3 (Clean Sweep)</strong>: Final comprehensive analysis of remaining photos</li>
-                </ul>
-            </li>
-            <li>Detecting duplicate, blurry, or low-quality images</li>
-            <li>Flagging photos for your review based on relevance to your stated preferences</li>
-            <li>Learning from your feedback to improve sorting accuracy over time</li>
-            <li>Providing personalized photo management recommendations</li>
-            <li>Background processing to continue analysis when app is minimized</li>
-        </ul>
-
-        <h3>2.2 Service Improvement</h3>
-        <ul>
-            <li>Improving AI accuracy through machine learning</li>
-            <li>Fixing bugs and optimizing performance</li>
-            <li>Developing new features based on usage patterns</li>
-        </ul>
-
-        <h3>2.3 Communication</h3>
-        <ul>
-            <li>Sending important service updates and notifications</li>
-            <li>Responding to your support requests</li>
-            <li>Informing you about new features (with your consent)</li>
-        </ul>
-
-        <h3>2.4 Legal Compliance</h3>
-        <ul>
-            <li>Complying with applicable laws and regulations</li>
-            <li>Protecting our legal rights</li>
-            <li>Preventing fraud and abuse</li>
-        </ul>
-
-        <hr>
-
-        <h2>3. Data Storage and Security</h2>
-
-        <h3>3.1 Local Storage</h3>
-        <ul>
-            <li><strong>Most data stays on your device</strong>: Photos, sorting decisions, and preferences are stored locally</li>
-            <li><strong>Secure local database</strong>: We use encrypted SQLite databases for sensitive data</li>
-            <li><strong>No cloud backup of photos</strong>: Your original photos never leave your device</li>
-        </ul>
-
-        <h3>3.2 Cloud Storage (Firebase/Google Cloud)</h3>
-        <ul>
-            <li><strong>User account data</strong>: Stored securely in Firebase Authentication</li>
-            <li><strong>AI learning data</strong>: Stored in Firebase Firestore with encryption at rest</li>
-            <li><strong>Temporary analysis data</strong>: Automatically deleted after processing</li>
-            <li><strong>Crash logs</strong>: Anonymized and stored in Firebase Crashlytics</li>
-        </ul>
-
-        <h3>3.3 Security Measures</h3>
-        <ul>
-            <li>Industry-standard encryption for data transmission (TLS/SSL)</li>
-            <li>Secure authentication via Google Sign-In</li>
-            <li>Regular security audits and updates</li>
-            <li>No sharing of personal data with third parties without consent</li>
-        </ul>
-
-        <hr>
-
-        <h2>4. Data Retention</h2>
-
-        <h3>4.1 Active Users</h3>
-        <ul>
-            <li>Account data: Retained while your account is active</li>
-            <li>AI learning data: Retained to improve sorting accuracy</li>
-            <li>Usage logs: Retained for 90 days</li>
-        </ul>
-
-        <h3>4.2 Account Deletion</h3>
-        <p>When you delete your account:</p>
-        <ul>
-            <li>Personal information is deleted within 30 days</li>
-            <li>AI learning data is anonymized (cannot be linked back to you)</li>
-            <li>Photos remain on your device (we never had copies)</li>
-            <li>Crash logs and analytics are anonymized</li>
-        </ul>
-
-        <hr>
-
-        <h2>5. Permissions Explained</h2>
-
-        <h3>5.1 Why We Need Each Permission</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Permission</th>
-                    <th>Purpose</th>
-                    <th>Can I Deny?</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>READ_MEDIA_IMAGES</strong></td>
-                    <td>Access photos for analysis</td>
-                    <td>❌ Required for core functionality</td>
-                </tr>
-                <tr>
-                    <td><strong>MANAGE_EXTERNAL_STORAGE</strong></td>
-                    <td>Organize photos across folders</td>
-                    <td>❌ Required for multi-folder sorting</td>
-                </tr>
-                <tr>
-                    <td><strong>INTERNET</strong></td>
-                    <td>AI analysis and account sync</td>
-                    <td>❌ Required for cloud features</td>
-                </tr>
-                <tr>
-                    <td><strong>FOREGROUND_SERVICE_DATA_SYNC</strong></td>
-                    <td>Continue analysis when app is minimized</td>
-                    <td>⚠️ Required for background processing</td>
-                </tr>
-                <tr>
-                    <td><strong>POST_NOTIFICATIONS</strong></td>
-                    <td>Show analysis progress notifications</td>
-                    <td>✅ Optional (can disable in Android settings)</td>
-                </tr>
-                <tr>
-                    <td><strong>ACCESS_NETWORK_STATE</strong></td>
-                    <td>Check internet connectivity</td>
-                    <td>❌ Required to avoid failed uploads</td>
-                </tr>
-                <tr>
-                    <td><strong>WAKE_LOCK</strong></td>
-                    <td>Keep processing active during background analysis</td>
-                    <td>⚠️ Automatically managed by system</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <div class="highlight">
-            <p><strong>Note</strong>: The FOREGROUND_SERVICE_DATA_SYNC permission is essential for the app's core functionality. It allows Sifty to:</p>
-            <ul>
-                <li>Continue photo analysis when you switch to other apps</li>
-                <li>Show persistent notifications with real-time progress updates</li>
-                <li>Complete long analysis sessions without interruption</li>
-                <li>Save battery by efficiently managing background tasks</li>
-            </ul>
-            <p>This is <strong>NOT</strong> used for data collection or tracking. It only ensures your photo analysis completes successfully even when the app is not in the foreground.</p>
-        </div>
-
-        <h3>5.2 Why Storage Access Framework (SAF) Isn't Sufficient</h3>
-        <p>Google Play requires us to explain why we use MANAGE_EXTERNAL_STORAGE instead of the more restrictive Storage Access Framework:</p>
-
-        <h4>Technical Reasons:</h4>
-        <ol>
-            <li><strong>Cross-Directory Analysis</strong>: Our duplicate detection algorithm needs to compare photos across ALL folders simultaneously (Camera, Downloads, WhatsApp, Screenshots, etc.). SAF would require users to manually grant access to each folder individually, which is impractical for comprehensive duplicate detection.</li>
-
-            <li><strong>File System Operations</strong>: We need to:
-                <ul>
-                    <li>Read file metadata (creation date, size) from multiple locations</li>
-                    <li>Create organized folders for sorted photos</li>
-                    <li>Move/delete files across different directories during cleanup</li>
-                    <li>SAF's scoped access would require separate permissions for each operation in each folder, breaking the automated workflow.</li>
-                </ul>
-            </li>
-
-            <li><strong>Hidden Files Access</strong>: We detect duplicates in app-specific directories (like <code>.thumbnails</code>, backup folders) that aren't exposed through Media Store API.</li>
-
-            <li><strong>Performance</strong>: Our native duplicate detection library requires absolute file paths for efficient comparison. SAF only provides URIs, which would significantly degrade performance.</li>
-        </ol>
-
-        <p><strong>User Benefit</strong>: Comprehensive, automated photo organization across your entire device without repeated permission prompts.</p>
-
-        <hr>
-
-        <h2>6. Third-Party Services</h2>
-
-        <h3>6.1 Google Services</h3>
-        <ul>
-            <li><strong>Firebase Authentication</strong>: Secure user login</li>
-            <li><strong>Firebase Firestore</strong>: Cloud database for AI learning</li>
-            <li><strong>Firebase Cloud Functions</strong>: AI photo analysis</li>
-            <li><strong>Firebase Crashlytics</strong>: Error reporting and crash analysis</li>
-            <li><strong>Google Sign-In</strong>: User authentication</li>
-        </ul>
-        <p><strong>Privacy Policy</strong>: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
-
-        <h3>6.2 Google Cloud Platform</h3>
-        <ul>
-            <li><strong>Cloud Functions</strong>: Serverless AI processing</li>
-            <li><strong>Cloud Storage</strong>: Temporary image storage during analysis</li>
-        </ul>
-        <p><strong>Privacy Policy</strong>: <a href="https://cloud.google.com/terms/cloud-privacy-notice" target="_blank">https://cloud.google.com/terms/cloud-privacy-notice</a></p>
-
-        <hr>
-
-        <h2>7. Your Rights and Choices</h2>
-
-        <h3>7.1 Access and Control</h3>
-        <ul>
-            <li><strong>View your data</strong>: Request a copy of your personal information</li>
-            <li><strong>Update your data</strong>: Change your profile information anytime</li>
-            <li><strong>Delete your data</strong>: Delete your account and associated data</li>
-            <li><strong>Export your data</strong>: Download your AI learning preferences (coming soon)</li>
-        </ul>
-
-        <h3>7.2 Privacy Controls</h3>
-        <ul>
-            <li><strong>Disable background processing</strong>: Stop the foreground service anytime</li>
-            <li><strong>Opt out of analytics</strong>: Disable crash reporting and usage statistics (in Settings)</li>
-            <li><strong>Revoke permissions</strong>: Remove storage or photo access (app will stop functioning)</li>
-            <li><strong>Control notifications</strong>: Disable notifications in Android settings</li>
-        </ul>
-
-        <h3>7.3 How to Exercise Your Rights</h3>
-        <p>Email us at: <strong><a href="mailto:mohdjun95@gmail.com">mohdjun95@gmail.com</a></strong></p>
-
-        <hr>
-
-        <h2>8. Children's Privacy</h2>
-        <p>Sifty is <strong>not intended for users under 13 years old</strong>. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us immediately, and we will delete it.</p>
-
-        <hr>
-
-        <h2>9. International Data Transfers</h2>
-        <p>Your information may be transferred to and processed in countries other than your country of residence. We ensure appropriate safeguards are in place to protect your data in accordance with this Privacy Policy and applicable laws.</p>
-
-        <hr>
-
-        <h2>10. Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by:</p>
-        <ul>
-            <li>Updating the "Last Updated" date at the top of this policy</li>
-            <li>Posting a prominent notice in the App</li>
-            <li>Sending an email notification (for significant changes)</li>
-        </ul>
-        <p>Your continued use of the App after changes constitutes acceptance of the updated policy.</p>
-
-        <hr>
-
-        <div class="contact-box">
-            <h2>11. Contact Us</h2>
-            <p>If you have questions or concerns about this Privacy Policy, please contact us:</p>
-            <p><strong>Email</strong>: <a href="mailto:mohdjun95@gmail.com">mohdjun95@gmail.com</a><br>
-            <strong>GitHub</strong>: <a href="https://github.com/mohdjun95/sifty-ai-photo-sorter" target="_blank">https://github.com/mohdjun95/sifty-ai-photo-sorter</a></p>
-        </div>
-
-        <hr>
-
-        <h2>12. Legal Compliance</h2>
-
-        <h3>12.1 GDPR Compliance (European Users)</h3>
-        <p>If you are in the European Economic Area (EEA), you have additional rights under GDPR:</p>
-        <ul>
-            <li>Right to data portability</li>
-            <li>Right to object to processing</li>
-            <li>Right to lodge a complaint with supervisory authorities</li>
-        </ul>
-
-        <h3>12.2 CCPA Compliance (California Users)</h3>
-        <p>California residents have the right to:</p>
-        <ul>
-            <li>Know what personal information is collected</li>
-            <li>Request deletion of personal information</li>
-            <li>Opt-out of the sale of personal information (Note: We do NOT sell your data)</li>
-        </ul>
-
-        <h3>12.3 Other Jurisdictions</h3>
-        <p>We comply with applicable data protection laws in all jurisdictions where the App is available.</p>
-
-        <hr>
-
-        <h2>13. Data Sharing and Disclosure</h2>
-
-        <h3>13.1 We Do NOT Sell Your Data</h3>
-        <p>We will <strong>never</strong> sell, rent, or trade your personal information to third parties for marketing purposes.</p>
-
-        <h3>13.2 When We May Share Data</h3>
-        <p>We may share your information only in these limited circumstances:</p>
-        <ul>
-            <li><strong>Service Providers</strong>: With trusted third parties who help operate the App (e.g., Google Cloud, Firebase) under strict confidentiality agreements</li>
-            <li><strong>Legal Requirements</strong>: If required by law, court order, or government request</li>
-            <li><strong>Safety and Protection</strong>: To protect the rights, property, or safety of Sifty, our users, or the public</li>
-            <li><strong>Business Transfers</strong>: In the event of a merger, acquisition, or sale of assets (you will be notified)</li>
-            <li><strong>With Your Consent</strong>: When you explicitly authorize us to share your data</li>
-        </ul>
-
-        <hr>
-
-        <h2>14. Cookies and Tracking</h2>
-        <p>Sifty does <strong>NOT</strong> use cookies or tracking technologies for advertising purposes. We only use:</p>
-        <ul>
-            <li><strong>Essential session data</strong>: To keep you logged in</li>
-            <li><strong>Analytics</strong>: Firebase Analytics for app improvement (anonymized)</li>
-            <li><strong>Crash reporting</strong>: To fix bugs and improve stability</li>
-        </ul>
-        <p>You can opt out of analytics in the App Settings.</p>
-
-        <hr>
-
-        <h2>15. Your California Privacy Rights</h2>
-        <p>If you are a California resident, you have the right to request information about our disclosure of personal information to third parties for their direct marketing purposes. To make such a request, please contact us at <strong><a href="mailto:mohdjun95@gmail.com">mohdjun95@gmail.com</a></strong>.</p>
-
-        <hr>
-
-        <div class="success">
-            <h2>Acknowledgment</h2>
-            <p>By using Sifty, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.</p>
-            <p style="text-align: center; margin-top: 20px;"><strong>Thank you for trusting Sifty with your photo organization needs!</strong></p>
-        </div>
-
-        <hr>
-
-        <h2>Version History</h2>
-        <ul>
-            <li><strong>v1.0</strong> - December 27, 2025: Initial privacy policy for public release</li>
-        </ul>
-
+<h1>Privacy Policy for Nytcrew (formerly Sifty)</h1>
+<p class="meta"><strong>Last Updated:</strong> October 20, 2026 <br><strong>Effective Date:</strong> October 20, 2026</p>
+<hr>
+<div class="success"><h2>The short version</h2>
+<ul><li><strong>Your photos never leave your phone.</strong> Nytcrew looks at your photos with an AI model that runs on your phone. No photo, thumbnail or copy of a photo is ever uploaded, to us or to anyone else.</li><li><strong>To decide what's clutter, Nytcrew sends a short text description of each photo</strong> (one or two sentences, plus up to 25 words of text visible in the photo) and the photo's age in days to our server, which asks Google's Gemini to score it. Emails, links, @handles and long numbers are masked on your phone before anything is sent.</li><li><strong>We back up your results</strong> (scores, the masked description and your keep/delete choices) to your Nytcrew account so you don't lose them if you reinstall.</li><li><strong>We don't sell your data, show ads or use advertising trackers.</strong></li></ul></div>
+<p>The rest of this policy explains each point in detail.</p>
+<hr>
+<h2>1. Who we are</h2>
+<p>Nytcrew, formerly called Sifty ("we", "our", "us"), is an Android app that keeps your photo gallery clean and searchable. It is developed by an independent developer, reachable at <strong>mohdjun95@gmail.com</strong>.</p>
+<p>This policy covers the Nytcrew app, version 2.6 and later ("Private Mode"). Earlier versions (2.4 and older) worked differently and sent compressed photos to the cloud for analysis; their policy is <a href="sift-v1.html">here</a>. If you still use an older version, please update.</p>
+<hr>
+<h2>2. What stays on your phone</h2>
+<p>These never leave your device:</p>
+<ul><li><strong>Your photos</strong>, in any form: originals, thumbnails or compressed copies.</li><li><strong>The full text read from your photos.</strong> Nytcrew uses Google ML Kit, on your phone, to read text in photos (for example on a screenshot or a document) so that you can search for it. That text is stored only on your phone.</li><li><strong>Visual fingerprints</strong> used to find similar shots (a small numeric summary of how a photo looks).</li><li><strong>Your search history.</strong></li><li><strong>The AI model itself</strong> (about 330 MB to 1.6 GB, depending on the app version), which is stored in the app's private storage and excluded from Android backup.</li></ul>
+<hr>
+<h2>3. What we collect, and why</h2>
+<h3>3.1 Account information</h3>
+<p>When you sign in with Google or with an email and password, Firebase Authentication stores your <strong>email address</strong>, your <strong>name</strong> (if you signed in with Google) and a <strong>user ID</strong>. We use these only to keep your account and your backup.</p>
+<h3>3.2 Text descriptions sent for scoring</h3>
+<p>For each photo, your phone sends our server (a Firebase Cloud Function):</p>
+<ul><li>a <strong>short description</strong> written on your phone (for example, "A screenshot of a train ticket booking page"),</li><li><strong>up to 25 words of text visible in the photo</strong>, if it has any,</li><li>the <strong>photo's age in days</strong>.</li></ul>
+<p>Before sending, the app masks email addresses, web links, @handles, long digit runs (such as phone, card or account numbers) and code-like strings.</p>
+<p>Our server forwards this text to <strong>Google's Gemini API</strong>, which returns seven scores (for example, how likely the photo is a memory, a document or clutter). Our server does not store the text: it returns the scores to your phone and keeps only a record of when each request was made, to limit how often the server can be called. Google processes the text under the <a href="https://ai.google.dev/gemini-api/terms">Gemini API terms</a>.</p>
+<h3>3.3 Your cloud backup</h3>
+<p>So you don't lose your results when you change phones or reinstall, Nytcrew stores the following in your account (Firebase Firestore), for each photo it has scored:</p>
+<ul><li>the photo's <strong>file name and folder</strong> on your phone, its media ID, file size and last-modified date,</li><li>the <strong>masked description</strong> and the seven scores,</li><li>whether Nytcrew suggested keeping it, and <strong>your keep/delete choice</strong> in Review.</li></ul>
+<p>It also stores:</p>
+<ul><li>your <strong>learned preferences</strong>: the weights Nytcrew learned from your Review choices,</li><li><strong>night-scan statistics</strong>: counts of how nights went (for example, "scanned while charging" or "battery too low") and a battery-level band. These are counts only, with no times or locations.</li></ul>
+<p>We use this data only to restore your results and to improve how Nytcrew works for you. Only you (signed in) and our backend can read it. Security rules prevent anyone else from accessing it.</p>
+<h3>3.4 Crash and error reports</h3>
+<p>When the app crashes or a scan fails, <strong>Firebase Crashlytics</strong> receives a report with the error, the app version and technical details about your phone: maker and model, Android version, RAM, processor type and, for scans, how long the scan ran. If the on-device AI has trouble with a photo, the report also includes the free memory and battery level at that moment, how long the photo took, and the photo's file type and size (never its name or folder). Reports never include your photos, descriptions, file names, folders or email address, and they are not linked to your account.</p>
+<h3>3.5 App integrity checks</h3>
+<p><strong>Firebase App Check</strong> (using Google Play Integrity) confirms that requests to our server come from the genuine Nytcrew app. This helps stop abuse of our servers. Google processes device integrity signals for this check.</p>
+<h3>3.6 Model download</h3>
+<p>The first time you allow photo access, Nytcrew downloads its AI model from <strong>Hugging Face</strong> (huggingface.co). Like any download, Hugging Face can see your IP address. No personal data is sent with the download.</p>
+<h3>3.7 What we do NOT collect</h3>
+<ul><li>No photos, thumbnails or copies of photos</li><li>No location data</li><li>No contacts, messages or call logs</li><li>No advertising ID, and no advertising or analytics trackers</li><li>No payment details (the current version has no in-app purchases)</li></ul>
+<hr>
+<h2>4. Permissions</h2>
+<table><tr><th>Permission</th><th>Why Nytcrew needs it</th><th>Required?</th></tr><tr><td><strong>Photos</strong> (READ_MEDIA_IMAGES; READ_EXTERNAL_STORAGE on older Android)</td><td>To look at your photos on your phone</td><td>Yes. Nytcrew can't work without it. If you allow only some photos, Nytcrew works on those</td></tr><tr><td><strong>Notifications</strong> (POST_NOTIFICATIONS)</td><td>To show scan progress and let you review photos from a notification</td><td>Optional</td></tr><tr><td><strong>Background scanning</strong> (FOREGROUND_SERVICE, FOREGROUND_SERVICE_DATA_SYNC, WAKE_LOCK)</td><td>To keep scanning with the screen off, with a visible notification while it runs</td><td>Required for scanning</td></tr><tr><td><strong>Battery optimization exemption</strong> (REQUEST_IGNORE_BATTERY_OPTIMIZATIONS)</td><td>So nightly scans aren't stopped by Android. You grant this in Android's settings</td><td>Optional</td></tr><tr><td><strong>Media management</strong> (MANAGE_MEDIA, Android 12+)</td><td>"One-tap delete": move photos you chose to delete to the phone's trash without an extra Android prompt. You grant this in Android's settings</td><td>Optional</td></tr><tr><td><strong>Internet</strong> (INTERNET)</td><td>To sign in, score descriptions, back up results and download the model</td><td>Yes</td></tr></table>
+<p>Nytcrew never deletes a photo on its own. Photos are deleted only when you choose to delete them, and they go to your phone's trash, where Android keeps them for 30 days.</p>
+<hr>
+<h2>5. Who we share data with</h2>
+<p>We <strong>never sell or rent</strong> your data, and we don't share it for advertising.</p>
+<p>Data is processed only by these service providers, to run the app:</p>
+<table><tr><th>Provider</th><th>What for</th><th>Privacy policy</th></tr><tr><td>Google Firebase (Authentication, Firestore, Cloud Functions, Crashlytics, App Check)</td><td>Account, backup, scoring server, crash reports, integrity checks</td><td><a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td></tr><tr><td>Google Gemini API</td><td>Scoring the text descriptions</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr><tr><td>Hugging Face</td><td>Hosting the AI model download</td><td><a href="https://huggingface.co/privacy">huggingface.co/privacy</a></td></tr></table>
+<p>We may also disclose data if the law requires it, or to protect the safety of our users or the public.</p>
+<hr>
+<h2>6. How long we keep data</h2>
+<ul><li><strong>On your phone:</strong> until you uninstall Nytcrew or clear its data.</li><li><strong>Account and cloud backup:</strong> while your account exists. When you delete your account (see section 7), we delete your account and backup within 30 days.</li><li><strong>Scoring text:</strong> not stored by our server. It is processed and discarded. The request times kept for rate limiting are removed with your account.</li><li><strong>Crash reports:</strong> kept by Firebase Crashlytics for up to 90 days.</li></ul>
+<hr>
+<h2>7. Your choices and rights</h2>
+<ul><li><strong>Delete your account and data:</strong> email <strong>mohdjun95@gmail.com</strong> from the address you signed in with, with the subject "Delete my Nytcrew account". We'll delete your account, your cloud backup, your learned preferences and your night statistics within 30 days and confirm by email. Your photos are not affected: they stay on your phone.</li><li><strong>Get a copy of your data:</strong> email us and we'll send you your cloud backup.</li><li><strong>Correct your data:</strong> email us.</li><li><strong>Withdraw permissions:</strong> turn off photo, notification or other access at any time in Android's settings. Nytcrew stops scanning without photo access.</li><li><strong>Stop scanning:</strong> tap Stop at any time, or turn off nightly scans and the bedtime reminder in Settings.</li></ul>
+<p>Depending on where you live, you may have further rights:</p>
+<ul><li><strong>India (Digital Personal Data Protection Act, 2023):</strong> you can access, correct and erase your data, nominate someone to exercise your rights, and raise a grievance with us at the email above. If you're not satisfied with our response, you can complain to the Data Protection Board of India.</li><li><strong>EU/UK (GDPR):</strong> you can also object to or restrict processing, ask for data portability, and complain to your data protection authority. We process your data to provide the service you asked for (contract) and, for crash reports and integrity checks, for our legitimate interest in keeping the app reliable and secure.</li><li><strong>California (CCPA/CPRA):</strong> you can know, delete and correct your data. We do not sell or share personal information for advertising.</li></ul>
+<hr>
+<h2>8. Security</h2>
+<ul><li>All data is sent over encrypted connections (HTTPS/TLS).</li><li>Your cloud backup can only be read or written by your signed-in account. Our database security rules enforce this.</li><li>Our scoring server accepts only requests from signed-in users of the genuine app, and limits how often it can be called.</li><li>Sign-in details on your phone are kept in Android's encrypted secure storage.</li></ul>
+<p>No system is perfectly secure, but we design Nytcrew to keep as little data off your phone as possible.</p>
+<hr>
+<h2>9. Children</h2>
+<p>Nytcrew is not intended for children under 13 and we don't knowingly collect their data. In India, users under 18 should use Nytcrew only with a parent's or guardian's consent. If you believe a child has given us personal data, email us and we will delete it.</p>
+<hr>
+<h2>10. International transfers</h2>
+<p>Our service providers may process data in countries other than yours, including the United States. They protect it under their own data protection terms.</p>
+<hr>
+<h2>11. Changes to this policy</h2>
+<p>When we change this policy, we'll update the date at the top. For important changes, such as sending new kinds of data off your phone, we'll tell you in the app before the change takes effect.</p>
+<hr>
+<h2>12. Contact</h2>
+<p>Questions, requests or complaints (including grievances under India's DPDP Act):</p>
+<p><strong>Email:</strong> mohdjun95@gmail.com</p>
+<hr>
+<h2>Version history</h2>
+<ul><li><strong>v2.1</strong> (October 20, 2026): The app is now called Nytcrew (formerly Sifty). Crash reports can include memory, battery and timing details for a photo the on-device AI had trouble with.</li><li><strong>v2.0</strong> (October 14, 2026): Rewritten for Private Mode (app version 2.6+). Photos are no longer uploaded. Analysis is done on the device, and only masked text descriptions are scored in the cloud.</li><li><strong>v1.0</strong> (December 27, 2025): Initial policy (cloud analysis of compressed photos, app versions up to 2.4).</li></ul>
     </div>
 </body>
 </html>
-
