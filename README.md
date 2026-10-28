@@ -10,7 +10,7 @@ This repository hosts privacy policies and legal documents for apps developed by
 
 **App Description:** Nytcrew tidies your photo gallery with an AI model that runs on your phone. Photos never leave the device.
 
-**Last Updated:** October 20, 2026
+**Last Updated:** October 28, 2026
 
 **Older versions:** the policy for app versions 2.4 and older (cloud analysis of compressed photos) is [sift-v1.html](https://mohdjun95.github.io/privacy-policies/sift-v1.html).
 

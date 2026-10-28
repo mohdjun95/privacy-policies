@@ -1,7 +1,7 @@
 # Privacy Policy for Nytcrew (formerly Sifty)
 
-**Last Updated:** October 20, 2026
-**Effective Date:** October 20, 2026
+**Last Updated:** October 28, 2026
+**Effective Date:** October 28, 2026
 
 ---
 
@@ -60,6 +60,7 @@ So you don't lose your results when you change phones or reinstall, Nytcrew stor
 It also stores:
 - your **learned preferences**: the weights Nytcrew learned from your Review choices,
 - **night-scan statistics**: counts of how nights went (for example, "scanned while charging" or "battery too low") and a battery-level band. These are counts only, with no times or locations.
+- **speed statistics**: how long the on-device AI takes per photo (median and slowest 10%), how many photos that's based on, your phone's model, chip and amount of RAM, and which version of the AI model it runs. This tells us how well Nytcrew works on different phones. It contains no photos, descriptions or file names.
 
 We use this data only to restore your results and to improve how Nytcrew works for you. Only you (signed in) and our backend can read it. Security rules prevent anyone else from accessing it.
 
@@ -175,6 +176,7 @@ Questions, requests or complaints (including grievances under India's DPDP Act):
 
 ## Version history
 
+- **v2.2** (October 28, 2026): Your account backup also holds speed statistics (time per photo, phone model, chip, RAM, model version), from app version 2.8.1.
 - **v2.1** (October 20, 2026): The app is now called Nytcrew (formerly Sifty). Crash reports can include memory, battery and timing details for a photo the on-device AI had trouble with.
 - **v2.0** (October 14, 2026): Rewritten for Private Mode (app version 2.6+). Photos are no longer uploaded. Analysis is done on the device, and only masked text descriptions are scored in the cloud.
 - **v1.0** (December 27, 2025): Initial policy (cloud analysis of compressed photos, app versions up to 2.4).
